@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"de/da5/class_man_generator.html#a6455c3e7b97efb0d8caf876e931fe587":[4,0,360,123],
 "de/da5/class_man_generator.html#a66ae1d09997555850f799cd41639939e":[4,0,360,152],
 "de/da5/class_man_generator.html#a680b0b24f66dc9038bb9d97dede6c309":[4,0,360,9],
 "de/da5/class_man_generator.html#a68a8a44e48aa4441ed8f522f4f88dc75":[4,0,360,101],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "de/dcd/structdefargs_y_y__state.html#a6a82d050ede624f0744676310345cc5e":[4,0,92,18],
 "de/dcd/structdefargs_y_y__state.html#a6e230e26b0df549f201ba638d04a03d5":[4,0,92,8],
 "de/dcd/structdefargs_y_y__state.html#a70785762445a8d0d5139a6139fb053b7":[4,0,92,6],
-"de/dcd/structdefargs_y_y__state.html#a8a3a0c2826334ea648b85e926c005c13":[4,0,92,0],
-"de/dcd/structdefargs_y_y__state.html#a8c1596f369f82ce086d078753fb467e8":[4,0,92,10]
+"de/dcd/structdefargs_y_y__state.html#a8a3a0c2826334ea648b85e926c005c13":[4,0,92,0]
 };
