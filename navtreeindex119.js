@@ -1,6 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"de/df7/class_translator_finnish.html#a3858c14d692f266daacb46834a024704":[4,0,577,140],
 "de/df7/class_translator_finnish.html#a38b247bbb722225414aba73f4db0f267":[4,0,577,99],
 "de/df7/class_translator_finnish.html#a38e8a8b11fa561ddb45f4ced27d5d04e":[4,0,577,24],
 "de/df7/class_translator_finnish.html#a3c86b722a288212c7c72bf96f4942250":[4,0,577,143],
@@ -249,5 +248,6 @@ var NAVTREEINDEX119 =
 "df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a3274f871e28c11b61c8256d20296aa27":[4,0,484,0,3],
 "df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4a61e9eb5a7ae3678a1c6254b69617f4b7":[4,0,484,0,1],
 "df/d1b/struct_symbol_modifiers.html#aceec8152eeb6c06b8dbe03ef14fed6a4ace26f25fe9aa85a4d1b93a09af862d8b":[4,0,484,0,0],
-"df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda":[4,0,484,14]
+"df/d1b/struct_symbol_modifiers.html#adcd51442f97dbef24a66a86ecd231fda":[4,0,484,14],
+"df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e":[4,0,484,21]
 };

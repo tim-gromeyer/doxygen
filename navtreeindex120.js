@@ -1,6 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"df/d1b/struct_symbol_modifiers.html#add511aaa15123dd20538a4e23415b91e":[4,0,484,21],
 "df/d1b/struct_symbol_modifiers.html#af53aa7a23a005f7e861977192ea549ad":[4,0,484,7],
 "df/d1b/struct_symbol_modifiers.html#af73c8f692ea33c3d1250adc8e4a1b946":[4,0,484,17],
 "df/d1c/class_dot_class_graph.html":[4,0,194],
@@ -249,5 +248,6 @@ var NAVTREEINDEX120 =
 "df/d20/structemoji_entity_compatibility.html#ad3297d34d3f0f31c4db74475be6ce108":[4,0,217,0],
 "df/d21/class_c_outline_parser.html":[4,0,88],
 "df/d21/class_c_outline_parser.html#a5d4323648b52f514ea8c0c71537359a5":[4,0,88,1],
-"df/d21/class_c_outline_parser.html#a9cbcfb80de80dfad2341d030750d8f53":[4,0,88,2]
+"df/d21/class_c_outline_parser.html#a9cbcfb80de80dfad2341d030750d8f53":[4,0,88,2],
+"df/d21/class_c_outline_parser.html#aa7f3b6aee86ee2d08d7a8804a96904dc":[4,0,88,6]
 };
