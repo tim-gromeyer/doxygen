@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"dd/d0b/class_translator_slovene.html#ac5dff5d2d8cca3cc383c77dcda78cebd":[8,0,601,32],
 "dd/d0b/class_translator_slovene.html#ac80fe2ab90e88612e72f18783b8cf360":[8,0,601,115],
 "dd/d0b/class_translator_slovene.html#ac98f4c1354712f89de5d94c82e60a4c3":[8,0,601,65],
 "dd/d0b/class_translator_slovene.html#aca1ad0f3927f4e05992cfdbe4ea5a36b":[8,0,601,90],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "dd/d38/class_translator_norwegian.html#a016327548c204763cf56e4fea6e4ad77":[8,0,592,158],
 "dd/d38/class_translator_norwegian.html#a023f19a8e39b52387205eb1b1e7fb98d":[8,0,592,40],
 "dd/d38/class_translator_norwegian.html#a04e9862bef83ebecd84588fe34f3c246":[8,0,592,47],
-"dd/d38/class_translator_norwegian.html#a054e211de282ce9201cdceac355a0995":[8,0,592,181],
-"dd/d38/class_translator_norwegian.html#a0599a31dcae83d35b8ca12d6c77adf2a":[8,0,592,85]
+"dd/d38/class_translator_norwegian.html#a054e211de282ce9201cdceac355a0995":[8,0,592,181]
 };

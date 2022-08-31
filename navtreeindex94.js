@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"dc/df2/class_translator_portuguese.html#a0cf6e682bb0ac54e49fe6b0fa6337759":[8,0,595,145],
 "dc/df2/class_translator_portuguese.html#a0d6b063892d35726748f79e8a669e7d6":[8,0,595,159],
 "dc/df2/class_translator_portuguese.html#a0e1c63c2d19a6b57fafd403dc92a1cf2":[8,0,595,17],
 "dc/df2/class_translator_portuguese.html#a0ede69fe6802ec86184ba3e2c259e94d":[8,0,595,133],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "dc/df2/class_translator_portuguese.html#ae6f5816122b62bef0dc0090d8970c7b3":[8,0,595,15],
 "dc/df2/class_translator_portuguese.html#ae921d1e455e56c93c4c08253678c181f":[8,0,595,219],
 "dc/df2/class_translator_portuguese.html#ae9c591a79f87322df06489b69c2eae7f":[8,0,595,198],
-"dc/df2/class_translator_portuguese.html#aea7a27dd67b729cb9345097bf1589e5d":[8,0,595,177],
-"dc/df2/class_translator_portuguese.html#aea85249790d42ac65ec1771a773ba46a":[8,0,595,196]
+"dc/df2/class_translator_portuguese.html#aea7a27dd67b729cb9345097bf1589e5d":[8,0,595,177]
 };

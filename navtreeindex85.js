@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"db/da0/struct_formula_manager_1_1_private.html#a9f9ca400f79ee303624f850efe0d490c":[8,0,284,0,3],
 "db/da2/class_search_indices_context.html":[8,0,463],
 "db/da2/class_search_indices_context.html#a0d9f0c82ece3f7f424876264b2bd559c":[8,0,463,4],
 "db/da2/class_search_indices_context.html#a19a2d502d732886c7424dc7e52f0a0c2":[8,0,463,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "db/dcc/class_translator_korean.html#aa8be7c0f7412661dc5ae06c1772806f7":[8,0,587,208],
 "db/dcc/class_translator_korean.html#aa90ae72e2809467cd71af1875b2d2d6a":[8,0,587,239],
 "db/dcc/class_translator_korean.html#aa90bf0e4a7bb5c89cde511affbb65126":[8,0,587,196],
-"db/dcc/class_translator_korean.html#aaadeec829930d258a7064f6a90545d4f":[8,0,587,29],
-"db/dcc/class_translator_korean.html#aac238fd69bed086c5ab922c49684c2ce":[8,0,587,98]
+"db/dcc/class_translator_korean.html#aaadeec829930d258a7064f6a90545d4f":[8,0,587,29]
 };
