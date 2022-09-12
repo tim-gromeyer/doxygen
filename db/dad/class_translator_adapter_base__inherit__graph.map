@@ -1,10 +1,8 @@
 <map id="TranslatorAdapterBase" name="TranslatorAdapterBase">
-<area shape="rect" id="node1" title="Base of the translator adapter tree." alt="" coords="3400,79,3569,104"/>
-<area shape="rect" id="node3" href="$dd/dba/class_translator_adapter__1__9__5.html" title=" " alt="" coords="3393,152,3576,177"/>
-<area shape="rect" id="node2" href="$d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments." alt="" coords="3441,5,3528,31"/>
+<area shape="rect" id="node1" title="Base of the translator adapter tree." alt="" coords="3213,79,3383,104"/>
+<area shape="rect" id="node3" href="$dd/dba/class_translator_adapter__1__9__5.html" title=" " alt="" coords="3207,152,3389,177"/>
+<area shape="rect" id="node2" href="$d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments." alt="" coords="3255,5,3341,31"/>
 <area shape="rect" id="node4" href="$d0/d33/class_translator_adapter__1__9__4.html" title=" " alt="" coords="3207,225,3389,251"/>
-<area shape="rect" id="node51" href="$d2/d4c/class_translator_brazilian.html" title=" " alt="" coords="3413,225,3556,251"/>
-<area shape="rect" id="node52" href="$dc/df2/class_translator_portuguese.html" title=" " alt="" coords="3580,225,3739,251"/>
 <area shape="rect" id="node5" href="$d3/d2e/class_translator_adapter__1__9__2.html" title=" " alt="" coords="2772,299,2955,324"/>
 <area shape="rect" id="node46" href="$da/dbb/class_translator_bulgarian.html" title=" " alt="" coords="2979,299,3127,324"/>
 <area shape="rect" id="node47" href="$d6/db6/class_translator_chinese.html" title=" " alt="" coords="3151,299,3290,324"/>

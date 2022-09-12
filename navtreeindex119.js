@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"de/dea/vhdldocgen_8cpp.html#ac4f1b611af42de29e058f467e51d471a":[9,0,2,296,46],
+"de/dea/vhdldocgen_8cpp.html#ac853f7c85a98e5ef7040604706c7b80c":[9,0,2,296,16],
 "de/dea/vhdldocgen_8cpp.html#ad36ddbfe80f95268437d017cf97cf057":[9,0,2,296,38],
 "de/dea/vhdldocgen_8cpp.html#ad5ed36e089ae23fbd0742efe34acf322":[9,0,2,296,2],
 "de/dea/vhdldocgen_8cpp.html#ad87f77f29e176092c5af9423b3523024":[9,0,2,296,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "de/dff/class_citation_manager.html#a10ba17e783f502c2998a7432c84fd462":[8,0,27,2],
 "de/dff/class_citation_manager.html#a269b4218fe0f0e33894756bf6bd2cbef":[8,0,27,12],
 "de/dff/class_citation_manager.html#a2904843bbc4e5d707386d5dce049692e":[8,0,27,5],
-"de/dff/class_citation_manager.html#a37a4055f986c73a8de48cd5d19bdd2dc":[8,0,27,11],
-"de/dff/class_citation_manager.html#a4934f7fbd6a387b7cc2ea0a12a2e04b5":[8,0,27,9],
-"de/dff/class_citation_manager.html#a5064df0802f4ce881cbe5d1d9757cc86":[8,0,27,3]
+"de/dff/class_citation_manager.html#a37a4055f986c73a8de48cd5d19bdd2dc":[8,0,27,11]
 };
