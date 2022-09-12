@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"functions_s.html":[8,3,0,19],
 "functions_t.html":[8,3,0,20],
 "functions_type.html":[8,3,3],
 "functions_u.html":[8,3,0,21],
