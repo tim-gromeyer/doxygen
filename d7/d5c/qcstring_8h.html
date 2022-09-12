@@ -1796,7 +1796,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  442</span>      <span class="keywordflow">return</span> s1 == s2 ? 0 : <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(s2 - s1);</div>
 <div class="line"><span class="lineno">  443</span>    }</div>
 <div class="line"><span class="lineno">  444</span>    <span class="keywordtype">int</span> res;</div>
-<div class="line"><span class="lineno">  445</span>    <a class="code hl_typedef" href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> c;</div>
+<div class="line"><span class="lineno">  445</span>    <span class="keywordtype">char</span> c;</div>
 <div class="line"><span class="lineno">  446</span>    <span class="keywordflow">for</span> ( ; !(res = ((c=<a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s1)) - <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a>(*s2))); s1++, s2++ )</div>
 <div class="line"><span class="lineno">  447</span>    {</div>
 <div class="line"><span class="lineno">  448</span>      <span class="keywordflow">if</span> ( !c )                         <span class="comment">// strings are equal</span></div>
@@ -1805,7 +1805,6 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  451</span>    <span class="keywordflow">return</span> res;</div>
 <div class="line"><span class="lineno">  452</span>}</div>
 <div class="ttc" id="aqcstring_8cpp_html_a4e545641f98651d4fb8299b407721f9b"><div class="ttname"><a href="../../d5/d3e/qcstring_8cpp.html#a4e545641f98651d4fb8299b407721f9b">toLowerChar</a></div><div class="ttdeci">char toLowerChar(char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00024">qcstring.cpp:24</a></div></div>
-<div class="ttc" id="aqcstring_8h_html_a65f85814a8290f9797005d3b28e7e5fc"><div class="ttname"><a href="../../d7/d5c/qcstring_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a></div><div class="ttdeci">unsigned char uchar</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00038">qcstring.h:38</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00024">toLowerChar()</a>.</p>
 
