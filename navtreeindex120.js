@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"de/df7/class_translator_finnish.html#afe2f710c712dee2dfb73f651dc9aeb50":[8,0,578,25],
 "de/df7/class_translator_finnish.html#aff6995c927817d6ff10d96b0cb810ee6":[8,0,578,71],
 "de/dfe/class_filter_default.html":[8,0,257],
 "de/dfe/class_filter_default.html#a573c5be35e8381ca8dd6287976cbd16a":[8,0,257,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "df/d20/class_translator_vietnamese.html#a8c196e52cf85888a374c4cf1592cc0bb":[8,0,607,187],
 "df/d20/class_translator_vietnamese.html#a8d49332b33953e8a9f20f279b54875e7":[8,0,607,131],
 "df/d20/class_translator_vietnamese.html#a8eaf67481171bd94e8d12fd2c530f3c2":[8,0,607,184],
-"df/d20/class_translator_vietnamese.html#a93069f1bc56d8eedc4e527b552603ab4":[8,0,607,46],
-"df/d20/class_translator_vietnamese.html#a94ff5616ff950ca69294aa5e15e0c148":[8,0,607,19]
+"df/d20/class_translator_vietnamese.html#a93069f1bc56d8eedc4e527b552603ab4":[8,0,607,46]
 };

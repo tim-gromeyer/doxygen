@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"db/d5f/class_translator_hungarian.html#a6d4a08b33d75ea8e927c15cf90efb7c3":[8,0,583,86],
 "db/d5f/class_translator_hungarian.html#a6e524172127a2d092fb93bee639205e4":[8,0,583,84],
 "db/d5f/class_translator_hungarian.html#a6e64d88438d6ec6566175817ba3ecc93":[8,0,583,19],
 "db/d5f/class_translator_hungarian.html#a6e79ea67840a64d03a95264e17fc908f":[8,0,583,171],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "db/d98/class_doc_node_a_s_t.html":[8,0,160],
 "db/d98/class_doc_node_a_s_t.html#a642834a987948f2245a0c0d05e350f91":[8,0,160,1],
 "db/d98/class_doc_node_a_s_t.html#a77e351cc54c344eac97ef21709f44305":[8,0,160,2],
-"db/d98/class_doc_node_a_s_t.html#ab573e4a616c8cf4677d233c90c65f79a":[8,0,160,0],
-"db/d9e/eclipsehelp_8h.html":[9,0,2,106]
+"db/d98/class_doc_node_a_s_t.html#ab573e4a616c8cf4677d233c90c65f79a":[8,0,160,0]
 };
