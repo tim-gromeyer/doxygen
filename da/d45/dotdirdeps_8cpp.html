@@ -440,7 +440,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Writes DOT code for opening a cluster subgraph to stream. </p>
-<p >Ancestor clusters directly get a label. Other clusters get a plain text node with a label instead. This is because the plain text node can be used to draw dependency relationships. </p>
+<p>Ancestor clusters directly get a label. Other clusters get a plain text node with a label instead. This is because the plain text node can be used to draw dependency relationships. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html#l00177">177</a> of file <a class="el" href="../../da/d45/dotdirdeps_8cpp_source.html">dotdirdeps.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">  179</span>{</div>
@@ -932,8 +932,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Write DOT code for directory dependency graph. </p>
-<p >Code is generated for a directory. Successors (sub-directories) of this directory are recursively drawn. Recursion is limited by <code>DIR_GRAPH_MAX_DEPTH</code>. The dependencies of those directories are drawn.</p>
-<p >If a dependee is not part of directory tree above, then the dependency is drawn to the first parent of the dependee, whose parent is an ancestor (sub-directory) of the original directory.</p>
+<p>Code is generated for a directory. Successors (sub-directories) of this directory are recursively drawn. Recursion is limited by <code>DIR_GRAPH_MAX_DEPTH</code>. The dependencies of those directories are drawn.</p>
+<p>If a dependee is not part of directory tree above, then the dependency is drawn to the first parent of the dependee, whose parent is an ancestor (sub-directory) of the original directory.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">t</td><td>stream where the DOT code is written to </td></tr>

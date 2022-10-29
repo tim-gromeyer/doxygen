@@ -311,7 +311,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a641b6050d64be3e8391eb5185ceb2f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Concrete visitor implementation for HTML output. </p>
+<div class="textblock"><p>Concrete visitor implementation for HTML output. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d71/htmldocvisitor_8h_source.html#l00029">29</a> of file <a class="el" href="../../d0/d71/htmldocvisitor_8h_source.html">htmldocvisitor.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -610,7 +610,7 @@ template&lt;class Node &gt; </div>
 </div><div class="memdoc">
 
 <p>Used for items found inside a paragraph, which due to XHTML restrictions have to be outside of the paragraph. </p>
-<p >This method will forcefully end the current paragraph and <a class="el" href="../../d5/d1b/class_html_doc_visitor.html#a589b2885ad8da905c113e5ad8329a354">forceStartParagraph()</a> will restart it. </p>
+<p>This method will forcefully end the current paragraph and <a class="el" href="../../d5/d1b/class_html_doc_visitor.html#a589b2885ad8da905c113e5ad8329a354">forceStartParagraph()</a> will restart it. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02324">2324</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2325</span>{</div>
@@ -725,7 +725,7 @@ template&lt;class Node &gt; </div>
 </div><div class="memdoc">
 
 <p>Used for items found inside a paragraph, which due to XHTML restrictions have to be outside of the paragraph. </p>
-<p >This method will forcefully start the paragraph, that was previously ended by <a class="el" href="../../d5/d1b/class_html_doc_visitor.html#ad599ce563783dc401d393121ea948d26">forceEndParagraph()</a>. </p>
+<p>This method will forcefully start the paragraph, that was previously ended by <a class="el" href="../../d5/d1b/class_html_doc_visitor.html#ad599ce563783dc401d393121ea948d26">forceEndParagraph()</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html#l02379">2379</a> of file <a class="el" href="../../da/db0/htmldocvisitor_8cpp_source.html">htmldocvisitor.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2380</span>{</div>
@@ -2475,7 +2475,7 @@ template&lt;class Node &gt; </div>
 <div class="line"><span class="lineno"> 1333</span>    <span class="keywordflow">if</span> (strlen(<a class="code hl_variable" href="../../da/db0/htmldocvisitor_8cpp.html#ae9c8430ed47aaf65608b7c1a7e24a355">contexts</a>[t]))</div>
 <div class="line"><span class="lineno"> 1334</span>      <a class="code hl_variable" href="../../d5/d1b/class_html_doc_visitor.html#a16e41fbce0a92fba2db2168ae4b81db5">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;p class=\&quot;&quot;</span> &lt;&lt; <a class="code hl_variable" href="../../da/db0/htmldocvisitor_8cpp.html#ae9c8430ed47aaf65608b7c1a7e24a355">contexts</a>[t] &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a5bf5f3ce01f67df744d390e1991bd856">htmlAttribsToString</a>(p.<a class="code hl_function" href="../../d3/d01/class_doc_para.html#a5082d8f47c5598a29ed0298e733f489f">attribs</a>()) &lt;&lt; <span class="stringliteral">&quot;&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1335</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1336</span>      <a class="code hl_variable" href="../../d5/d1b/class_html_doc_visitor.html#a16e41fbce0a92fba2db2168ae4b81db5">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;p &quot;</span> &lt;&lt; <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a5bf5f3ce01f67df744d390e1991bd856">htmlAttribsToString</a>(p.<a class="code hl_function" href="../../d3/d01/class_doc_para.html#a5082d8f47c5598a29ed0298e733f489f">attribs</a>()) &lt;&lt; <span class="stringliteral">&quot;&gt;&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1336</span>      <a class="code hl_variable" href="../../d5/d1b/class_html_doc_visitor.html#a16e41fbce0a92fba2db2168ae4b81db5">m_t</a> &lt;&lt; <span class="stringliteral">&quot;&lt;p&quot;</span> &lt;&lt; <a class="code hl_function" href="../../da/db0/htmldocvisitor_8cpp.html#a5bf5f3ce01f67df744d390e1991bd856">htmlAttribsToString</a>(p.<a class="code hl_function" href="../../d3/d01/class_doc_para.html#a5082d8f47c5598a29ed0298e733f489f">attribs</a>()) &lt;&lt; <span class="stringliteral">&quot;&gt;&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1337</span>  }</div>
 <div class="line"><span class="lineno"> 1338</span> </div>
 <div class="line"><span class="lineno"> 1339</span>  <a class="code hl_function" href="../../d5/d1b/class_html_doc_visitor.html#aaaee730268ec11309fedff8358003a10">visitChildren</a>(p);</div>
