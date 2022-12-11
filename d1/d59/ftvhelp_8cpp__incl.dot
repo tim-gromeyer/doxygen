@@ -176,6 +176,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/ftvhelp.cpp"
   Node51 -> Node29 [color="steelblue1",style="solid"];
   Node51 -> Node54 [color="steelblue1",style="solid"];
   Node54 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node54 -> Node6 [color="steelblue1",style="solid"];
   Node54 -> Node8 [color="steelblue1",style="solid"];
   Node51 -> Node55 [color="steelblue1",style="solid"];
   Node55 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

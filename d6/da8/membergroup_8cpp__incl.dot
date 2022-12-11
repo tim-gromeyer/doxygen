@@ -113,6 +113,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/membergroup.cpp"
   Node32 -> Node6 [color="steelblue1",style="solid"];
   Node32 -> Node35 [color="steelblue1",style="solid"];
   Node35 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node35 -> Node5 [color="steelblue1",style="solid"];
   Node35 -> Node7 [color="steelblue1",style="solid"];
   Node32 -> Node36 [color="steelblue1",style="solid"];
   Node36 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

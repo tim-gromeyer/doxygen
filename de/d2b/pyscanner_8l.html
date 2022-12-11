@@ -1301,7 +1301,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1840</span>      {</div>
 <div class="line"><span class="lineno"> 1841</span>        yyextra-&gt;specialBlock = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno"> 1842</span>        yyextra-&gt;current_root = ce;</div>
-<div class="line"><span class="lineno"> 1843</span>        BEGIN( Search );</div>
+<div class="line"><span class="lineno"> 1843</span>        BEGIN( <a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a> );</div>
 <div class="line"><span class="lineno"> 1844</span>      }</div>
 <div class="line"><span class="lineno"> 1845</span>      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ce-&gt;parent())</div>
 <div class="line"><span class="lineno"> 1846</span>      {</div>
@@ -1314,6 +1314,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1853</span>      yyextra-&gt;yyLineNr   = ce-&gt;bodyLine ;</div>
 <div class="line"><span class="lineno"> 1854</span>      yyextra-&gt;current = std::make_shared&lt;Entry&gt;();</div>
 <div class="line"><span class="lineno"> 1855</span>      <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#affe329b2bcd94b04290e03afad9c97c5">initEntry</a>(yyscanner);</div>
+<div class="ttc" id="aindex_8h_html_a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3"><div class="ttname"><a href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">HighlightedItem::Search</a></div><div class="ttdeci">@ Search</div></div>
 <div class="line"><span class="lineno"> 1856</span> </div>
 <div class="line"><span class="lineno"> 1857</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> name = ce-&gt;name;</div>
 <div class="line"><span class="lineno"> 1858</span>      yyextra-&gt;commentScanner.enterCompound(yyextra-&gt;fileName,yyextra-&gt;yyLineNr,name);</div>
@@ -1332,7 +1333,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="apyscanner_8l_html_af3d71282d72dd7136124a4c7405f6b28"><div class="ttname"><a href="../../de/d2b/pyscanner_8l.html#af3d71282d72dd7136124a4c7405f6b28">parseCompounds</a></div><div class="ttdeci">static void parseCompounds(yyscan_t yyscanner, std::shared_ptr&lt; Entry &gt; rt)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/pyscanner_8l_source.html#l01823">pyscanner.l:1823</a></div></div>
 <div class="line"><span class="lineno"> 1871</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/dc6/entry_8h_source.html#l00070">Entry::COMPOUND_MASK</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01524">initEntry()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01823">parseCompounds()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc6/entry_8h_source.html#l00070">Entry::COMPOUND_MASK</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01524">initEntry()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01823">parseCompounds()</a>, <a class="el" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01823">parseCompounds()</a>, and <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01876">parseMain()</a>.</p>
 
@@ -1453,7 +1454,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1935</span>  yyextra-&gt;current-&gt;reset();</div>
 <div class="line"><span class="lineno"> 1936</span>  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#affe329b2bcd94b04290e03afad9c97c5">initEntry</a>(yyscanner);</div>
 <div class="line"><span class="lineno"> 1937</span>  pyscannerYYrestart(0,yyscanner);</div>
-<div class="line"><span class="lineno"> 1938</span>  BEGIN( Search );</div>
+<div class="line"><span class="lineno"> 1938</span>  BEGIN( <a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a> );</div>
 <div class="line"><span class="lineno"> 1939</span>  pyscannerYYlex(yyscanner);</div>
 <div class="line"><span class="lineno"> 1940</span>  yyextra-&gt;lexInit=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>;</div>
 <div class="line"><span class="lineno"> 1941</span> </div>
@@ -1465,7 +1466,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1947</span>  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#af3d71282d72dd7136124a4c7405f6b28">parseCompounds</a>(yyscanner, yyextra-&gt;current_root);</div>
 <div class="line"><span class="lineno"> 1948</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00123">FileInfo::baseName()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01629">findPackageScope()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01524">initEntry()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01513">initParser()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00032">Method</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00068">Entry::NAMESPACE_SEC</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Normal</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01823">parseCompounds()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00609">qPrint()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dbc/fileinfo_8cpp_source.html#l00123">FileInfo::baseName()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00033">FALSE</a>, <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00043">QCString::find()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01629">findPackageScope()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01524">initEntry()</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01513">initParser()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00212">QCString::left()</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00147">QCString::length()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00032">Method</a>, <a class="el" href="../../d8/d6a/message_8cpp_source.html#l00067">msg()</a>, <a class="el" href="../../d1/dc6/entry_8h_source.html#l00068">Entry::NAMESPACE_SEC</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00029">Normal</a>, <a class="el" href="../../de/d2b/pyscanner_8l_source.html#l01823">parseCompounds()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00026">Public</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00609">qPrint()</a>, <a class="el" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>, <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00480">QCString::str()</a>, and <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00036">TRUE</a>.</p>
 
 </div>
 </div>
@@ -1886,13 +1887,13 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  411</span>                      }</div>
 <div class="line"><span class="lineno">  412</span>  \n                  {</div>
 <div class="line"><span class="lineno">  413</span>                        <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a062cea4ebaac0ec4861bdf89dbde1b00">incLineNr</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  414</span>                        BEGIN(Search);</div>
+<div class="line"><span class="lineno">  414</span>                        BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  415</span>                      }</div>
 <div class="line"><span class="lineno">  416</span>  {B}                 {</div>
 <div class="line"><span class="lineno">  417</span>                      }</div>
 <div class="line"><span class="lineno">  418</span>  .                   {</div>
 <div class="line"><span class="lineno">  419</span>                        unput(*yytext);</div>
-<div class="line"><span class="lineno">  420</span>                        BEGIN(Search);</div>
+<div class="line"><span class="lineno">  420</span>                        BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  421</span>                      }</div>
 <div class="ttc" id="apyscanner_8l_html_a062cea4ebaac0ec4861bdf89dbde1b00"><div class="ttname"><a href="../../de/d2b/pyscanner_8l.html#a062cea4ebaac0ec4861bdf89dbde1b00">incLineNr</a></div><div class="ttdeci">static void incLineNr(yyscan_t yyscanner)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/pyscanner_8l_source.html#l01659">pyscanner.l:1659</a></div></div>
 <div class="line"><span class="lineno">  422</span>}</div>
@@ -1900,7 +1901,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  424</span>&lt;FromModItem&gt;{</div>
 <div class="line"><span class="lineno">  425</span>  <span class="stringliteral">&quot;*&quot;</span>           { <span class="comment">// import all</span></div>
 <div class="line"><span class="lineno">  426</span>                  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a3b2171b8a9cdc055bd41d0181094f27a">addFrom</a>(yyscanner,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>);</div>
-<div class="line"><span class="lineno">  427</span>                  BEGIN(Search);</div>
+<div class="line"><span class="lineno">  427</span>                  BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  428</span>                }</div>
 <div class="line"><span class="lineno">  429</span>  {IDENTIFIER}/{B}<span class="stringliteral">&quot;,&quot;</span>{B} {</div>
 <div class="line"><span class="lineno">  430</span>                  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a3b2171b8a9cdc055bd41d0181094f27a">addFrom</a>(yyscanner,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
@@ -1912,14 +1913,14 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  436</span>                  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a3b2171b8a9cdc055bd41d0181094f27a">addFrom</a>(yyscanner,<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>);</div>
 <div class="line"><span class="lineno">  437</span>                  <span class="keywordflow">if</span> (!yyextra-&gt;importTuple)</div>
 <div class="line"><span class="lineno">  438</span>                  {</div>
-<div class="line"><span class="lineno">  439</span>                    BEGIN(Search);</div>
+<div class="line"><span class="lineno">  439</span>                    BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  440</span>                  }</div>
 <div class="line"><span class="lineno">  441</span>                }</div>
 <div class="line"><span class="lineno">  442</span>  \n            {</div>
 <div class="line"><span class="lineno">  443</span>                  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a062cea4ebaac0ec4861bdf89dbde1b00">incLineNr</a>(yyscanner);</div>
 <div class="line"><span class="lineno">  444</span>                  <span class="keywordflow">if</span> (!yyextra-&gt;importTuple)</div>
 <div class="line"><span class="lineno">  445</span>                  {</div>
-<div class="line"><span class="lineno">  446</span>                    BEGIN(Search);</div>
+<div class="line"><span class="lineno">  446</span>                    BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  447</span>                  }</div>
 <div class="line"><span class="lineno">  448</span>                }</div>
 <div class="line"><span class="lineno">  449</span>  {B}           {</div>
@@ -1929,7 +1930,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  453</span>                }</div>
 <div class="line"><span class="lineno">  454</span>  <span class="stringliteral">&quot;)&quot;</span>           {</div>
 <div class="line"><span class="lineno">  455</span>                  yyextra-&gt;importTuple=<a class="code hl_define" href="../../d7/d5c/qcstring_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
-<div class="line"><span class="lineno">  456</span>                  BEGIN(Search);</div>
+<div class="line"><span class="lineno">  456</span>                  BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  457</span>                }</div>
 <div class="line"><span class="lineno">  458</span>  <span class="stringliteral">&quot;,&quot;</span>           {</div>
 <div class="line"><span class="lineno">  459</span>                }</div>
@@ -1938,7 +1939,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  462</span>                }</div>
 <div class="line"><span class="lineno">  463</span>  .             {</div>
 <div class="line"><span class="lineno">  464</span>                  unput(*yytext);</div>
-<div class="line"><span class="lineno">  465</span>                  BEGIN(Search);</div>
+<div class="line"><span class="lineno">  465</span>                  BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  466</span>                }</div>
 <div class="ttc" id="apyscanner_8l_html_a3b2171b8a9cdc055bd41d0181094f27a"><div class="ttname"><a href="../../de/d2b/pyscanner_8l.html#a3b2171b8a9cdc055bd41d0181094f27a">addFrom</a></div><div class="ttdeci">static void addFrom(yyscan_t yyscanner, bool all)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/pyscanner_8l_source.html#l01636">pyscanner.l:1636</a></div></div>
 <div class="line"><span class="lineno">  467</span>}</div>
@@ -1951,17 +1952,17 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  474</span>                        yyextra-&gt;current-&gt;section=<a class="code hl_enumvalue" href="../../d4/dd7/class_entry.html#a1e615d53eb7db6d16c19fcb5788fbd9eaf36465de74f5e770163ff501164b5ea3">Entry::USINGDECL_SEC</a>;</div>
 <div class="line"><span class="lineno">  475</span>                        yyextra-&gt;current_root-&gt;moveToSubEntryAndRefresh(yyextra-&gt;current);</div>
 <div class="line"><span class="lineno">  476</span>                        <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#affe329b2bcd94b04290e03afad9c97c5">initEntry</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  477</span>                        BEGIN(Search);</div>
+<div class="line"><span class="lineno">  477</span>                        BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  478</span>                      }</div>
 <div class="line"><span class="lineno">  479</span>  \n            {</div>
 <div class="line"><span class="lineno">  480</span>                  <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a062cea4ebaac0ec4861bdf89dbde1b00">incLineNr</a>(yyscanner);</div>
-<div class="line"><span class="lineno">  481</span>                  BEGIN(Search);</div>
+<div class="line"><span class="lineno">  481</span>                  BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  482</span>                }</div>
 <div class="line"><span class="lineno">  483</span>  {B}           {</div>
 <div class="line"><span class="lineno">  484</span>                }</div>
 <div class="line"><span class="lineno">  485</span>  .             {</div>
 <div class="line"><span class="lineno">  486</span>                  unput(*yytext);</div>
-<div class="line"><span class="lineno">  487</span>                  BEGIN(Search);</div>
+<div class="line"><span class="lineno">  487</span>                  BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  488</span>                }</div>
 <div class="line"><span class="lineno">  489</span>}</div>
 <div class="line"><span class="lineno">  490</span> </div>
@@ -2048,7 +2049,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  571</span>                          <a class="code hl_define" href="../../de/d2b/pyscanner_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a>(yytext,yyleng);</div>
 <div class="line"><span class="lineno">  572</span>                          <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a4bbc5085e6314777292116922282abf8">endOfDef</a>(yyscanner);</div>
 <div class="line"><span class="lineno">  573</span>                          <span class="comment">//YY_CURRENT_BUFFER-&gt;yy_at_bol=TRUE;</span></div>
-<div class="line"><span class="lineno">  574</span>                          BEGIN(Search);</div>
+<div class="line"><span class="lineno">  574</span>                          BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  575</span>                        }</div>
 <div class="line"><span class="lineno">  576</span>                        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  577</span>                        {</div>
@@ -2062,7 +2063,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  585</span>                          <a class="code hl_define" href="../../de/d2b/pyscanner_8l.html#a86da2f5e3360caa90276fc24433d9512">unput_string</a>(yytext,yyleng);</div>
 <div class="line"><span class="lineno">  586</span>                          <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a4bbc5085e6314777292116922282abf8">endOfDef</a>(yyscanner);</div>
 <div class="line"><span class="lineno">  587</span>                          <span class="comment">//YY_CURRENT_BUFFER-&gt;yy_at_bol=TRUE;</span></div>
-<div class="line"><span class="lineno">  588</span>                          BEGIN(Search);</div>
+<div class="line"><span class="lineno">  588</span>                          BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  589</span>                        }</div>
 <div class="line"><span class="lineno">  590</span>                        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  591</span>                        {</div>
@@ -2084,7 +2085,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  607</span>                          <span class="comment">// jumped out of the function</span></div>
 <div class="line"><span class="lineno">  608</span>                        {</div>
 <div class="line"><span class="lineno">  609</span>                          <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a4bbc5085e6314777292116922282abf8">endOfDef</a>(yyscanner,1);</div>
-<div class="line"><span class="lineno">  610</span>                          BEGIN(Search);</div>
+<div class="line"><span class="lineno">  610</span>                          BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  611</span>                        }</div>
 <div class="line"><span class="lineno">  612</span>                      }</div>
 <div class="line"><span class="lineno">  613</span>    <span class="stringliteral">&quot;&#39;&quot;</span>               { <span class="comment">// start of a single quoted string</span></div>
@@ -2382,7 +2383,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  896</span>                          }</div>
 <div class="line"><span class="lineno">  897</span>                          <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a4bbc5085e6314777292116922282abf8">endOfDef</a>(yyscanner);</div>
 <div class="line"><span class="lineno">  898</span>                          <span class="comment">//YY_CURRENT_BUFFER-&gt;yy_at_bol=TRUE;</span></div>
-<div class="line"><span class="lineno">  899</span>                          BEGIN(Search);</div>
+<div class="line"><span class="lineno">  899</span>                          BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  900</span>                        }</div>
 <div class="line"><span class="lineno">  901</span>                        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  902</span>                        {</div>
@@ -2400,7 +2401,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  914</span>                          }</div>
 <div class="line"><span class="lineno">  915</span>                          <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a4bbc5085e6314777292116922282abf8">endOfDef</a>(yyscanner);</div>
 <div class="line"><span class="lineno">  916</span>                          <span class="comment">//YY_CURRENT_BUFFER-&gt;yy_at_bol=TRUE;</span></div>
-<div class="line"><span class="lineno">  917</span>                          BEGIN(Search);</div>
+<div class="line"><span class="lineno">  917</span>                          BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  918</span>                        }</div>
 <div class="line"><span class="lineno">  919</span>                        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  920</span>                        {</div>
@@ -2426,7 +2427,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  940</span>                          <span class="comment">// make sure the next rule matches ^...</span></div>
 <div class="line"><span class="lineno">  941</span>                          <span class="comment">//YY_CURRENT_BUFFER-&gt;yy_at_bol=TRUE;</span></div>
 <div class="line"><span class="lineno">  942</span>                          <span class="comment">//yyextra-&gt;hideClassDocs = FALSE;</span></div>
-<div class="line"><span class="lineno">  943</span>                          BEGIN(Search);</div>
+<div class="line"><span class="lineno">  943</span>                          BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno">  944</span>                        }</div>
 <div class="line"><span class="lineno">  945</span>                        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  946</span>                        {</div>
@@ -2588,7 +2589,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1099</span>                                 yyextra-&gt;current-&gt;program &lt;&lt; yytext;</div>
 <div class="line"><span class="lineno"> 1100</span> </div>
 <div class="line"><span class="lineno"> 1101</span>                                 <span class="comment">// printf(&quot;Failed to find indent - skipping!&quot;);</span></div>
-<div class="line"><span class="lineno"> 1102</span>                                 BEGIN( Search );</div>
+<div class="line"><span class="lineno"> 1102</span>                                 BEGIN( <a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a> );</div>
 <div class="line"><span class="lineno"> 1103</span>                               }</div>
 <div class="line"><span class="lineno"> 1104</span>}</div>
 <div class="line"><span class="lineno"> 1105</span> </div>
@@ -2773,12 +2774,12 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1284</span>    \n                {</div>
 <div class="line"><span class="lineno"> 1285</span>                        <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a062cea4ebaac0ec4861bdf89dbde1b00">incLineNr</a>(yyscanner);</div>
 <div class="line"><span class="lineno"> 1286</span>                        <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a851aa07f7276b7e8f4b12d2592d2eb39">newVariable</a>(yyscanner);</div>
-<div class="line"><span class="lineno"> 1287</span>                        BEGIN(Search);</div>
+<div class="line"><span class="lineno"> 1287</span>                        BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno"> 1288</span>                      }</div>
 <div class="line"><span class="lineno"> 1289</span>    .                 {</div>
 <div class="line"><span class="lineno"> 1290</span>                        unput(*yytext);</div>
 <div class="line"><span class="lineno"> 1291</span>                        <a class="code hl_function" href="../../de/d2b/pyscanner_8l.html#a851aa07f7276b7e8f4b12d2592d2eb39">newVariable</a>(yyscanner);</div>
-<div class="line"><span class="lineno"> 1292</span>                        BEGIN(Search);</div>
+<div class="line"><span class="lineno"> 1292</span>                        BEGIN(<a class="code hl_enumvalue" href="../../d1/db5/index_8h.html#a6643b7765422a7eb577f0b2ed8fb2e09a13348442cc6a27032d2b4aa28b75a5d3">Search</a>);</div>
 <div class="line"><span class="lineno"> 1293</span>                      }</div>
 <div class="line"><span class="lineno"> 1294</span>    &lt;&lt;EOF&gt;&gt;           { yyterminate();</div>
 <div class="line"><span class="lineno"> 1295</span>                      }</div>

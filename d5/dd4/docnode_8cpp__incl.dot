@@ -249,6 +249,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/docnode.cpp"
   Node67 -> Node48 [color="steelblue1",style="solid"];
   Node67 -> Node69 [color="steelblue1",style="solid"];
   Node69 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node69 -> Node5 [color="steelblue1",style="solid"];
   Node69 -> Node7 [color="steelblue1",style="solid"];
   Node67 -> Node70 [color="steelblue1",style="solid"];
   Node70 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

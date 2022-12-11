@@ -188,6 +188,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/doxygen.cpp"
   Node53 -> Node24 [color="steelblue1",style="solid"];
   Node1 -> Node57 [color="steelblue1",style="solid"];
   Node57 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node57 -> Node8 [color="steelblue1",style="solid"];
   Node57 -> Node24 [color="steelblue1",style="solid"];
   Node1 -> Node58 [color="steelblue1",style="solid"];
   Node58 [label="indexlist.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d61/indexlist_8h.html",tooltip=" "];
@@ -421,7 +422,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/doxygen.cpp"
   Node114 -> Node28 [color="steelblue1",style="solid"];
   Node114 -> Node24 [color="steelblue1",style="solid"];
   Node1 -> Node115 [color="steelblue1",style="solid"];
-  Node115 [label="commentcnv.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/commentcnv_8h.html",tooltip=" "];
+  Node115 [label="commentcnv.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$de/d9a/commentcnv_8h.html",tooltip="First pass comment processing."];
   Node1 -> Node116 [color="steelblue1",style="solid"];
   Node116 [label="cmdmapper.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d3/d42/cmdmapper_8h.html",tooltip=" "];
   Node116 -> Node19 [color="steelblue1",style="solid"];

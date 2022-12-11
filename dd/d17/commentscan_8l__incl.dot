@@ -263,6 +263,7 @@ digraph "/home/runner/work/doxygen/doxygen/src/commentscan.l"
   Node71 -> Node26 [color="steelblue1",style="solid"];
   Node71 -> Node72 [color="steelblue1",style="solid"];
   Node72 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
+  Node72 -> Node24 [color="steelblue1",style="solid"];
   Node72 -> Node13 [color="steelblue1",style="solid"];
   Node71 -> Node66 [color="steelblue1",style="solid"];
   Node71 -> Node54 [color="steelblue1",style="solid"];
