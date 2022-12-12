@@ -189,6 +189,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/doxygen.cpp"
   Node1 -> Node57 [color="steelblue1",style="solid"];
   Node57 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
   Node57 -> Node8 [color="steelblue1",style="solid"];
+  Node57 -> Node16 [color="steelblue1",style="solid"];
+  Node57 -> Node19 [color="steelblue1",style="solid"];
   Node57 -> Node24 [color="steelblue1",style="solid"];
   Node1 -> Node58 [color="steelblue1",style="solid"];
   Node58 [label="indexlist.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d5/d61/indexlist_8h.html",tooltip=" "];

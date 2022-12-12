@@ -1,5 +1,12 @@
 var NAVTREEINDEX65 =
 {
+"d9/d1b/class_translator_dutch.html#a84677edea3afc4551b0ac3a00b6283e6":[8,0,580,125],
+"d9/d1b/class_translator_dutch.html#a87861df73da33dea1dacd025fbe96d57":[8,0,580,71],
+"d9/d1b/class_translator_dutch.html#a87b333e866355d32f10f793db820709a":[8,0,580,107],
+"d9/d1b/class_translator_dutch.html#a8903fb6229a9c0ff86f762476a0c05f5":[8,0,580,272],
+"d9/d1b/class_translator_dutch.html#a8a563ae26cc303bf8293485c58565c0c":[8,0,580,136],
+"d9/d1b/class_translator_dutch.html#a8b353e3faef70a92c08a0ffaa64aaf8e":[8,0,580,94],
+"d9/d1b/class_translator_dutch.html#a8b72d760222466784ebb60c0cafe621f":[8,0,580,242],
 "d9/d1b/class_translator_dutch.html#a8daeda058cfb5a2a97fe0c387cf3fd2e":[8,0,580,81],
 "d9/d1b/class_translator_dutch.html#a8e16864f137ab89c0a0d47264ab6eb7e":[8,0,580,30],
 "d9/d1b/class_translator_dutch.html#a8f659c8ed7b4bc681213851c0cd5e6f4":[8,0,580,248],
@@ -242,12 +249,5 @@ var NAVTREEINDEX65 =
 "d9/d38/class_ref_item.html#adf7a2187f52d9cc4c0c4678eab8d3469":[8,0,451,21],
 "d9/d38/class_ref_item.html#ae7c2f68012f0c1aee19f23f14238ec83":[8,0,451,18],
 "d9/d38/class_ref_item.html#aebd4bb49f4b3c355fa866a6e5b409d1b":[8,0,451,1],
-"d9/d38/class_ref_item.html#af30053df6be62518caf94976f6e72c1d":[8,0,451,14],
-"d9/d38/class_ref_item.html#afa2f40e3e931c9b3136e03b1e8a92202":[8,0,451,22],
-"d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html":[7,0,11,0,12],
-"d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html":[8,0,5,0,12],
-"d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html#a4d1617061f43a0ececa71db05e4ca28b":[8,0,5,0,12,0],
-"d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html#a4d1617061f43a0ececa71db05e4ca28b":[7,0,11,0,12,0],
-"d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html#ac1b3ff737542635ba16412aa73e55787":[7,0,11,0,12,2],
-"d9/d3e/classvhdl_1_1parser_1_1_vhdl_token_manager_error_handler.html#ac1b3ff737542635ba16412aa73e55787":[8,0,5,0,12,2]
+"d9/d38/class_ref_item.html#af30053df6be62518caf94976f6e72c1d":[8,0,451,14]
 };

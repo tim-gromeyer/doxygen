@@ -122,6 +122,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/classlist.cpp"
   Node38 -> Node40 [color="steelblue1",style="solid"];
   Node40 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
   Node40 -> Node6 [color="steelblue1",style="solid"];
+  Node40 -> Node5 [color="steelblue1",style="solid"];
+  Node40 -> Node20 [color="steelblue1",style="solid"];
   Node40 -> Node10 [color="steelblue1",style="solid"];
   Node38 -> Node41 [color="steelblue1",style="solid"];
   Node41 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

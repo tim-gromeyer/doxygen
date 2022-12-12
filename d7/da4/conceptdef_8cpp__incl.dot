@@ -144,6 +144,8 @@ digraph "/home/runner/work/doxygen/doxygen/src/conceptdef.cpp"
   Node41 -> Node43 [color="steelblue1",style="solid"];
   Node43 [label="index.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/db5/index_8h.html",tooltip=" "];
   Node43 -> Node18 [color="steelblue1",style="solid"];
+  Node43 -> Node4 [color="steelblue1",style="solid"];
+  Node43 -> Node28 [color="steelblue1",style="solid"];
   Node43 -> Node6 [color="steelblue1",style="solid"];
   Node41 -> Node44 [color="steelblue1",style="solid"];
   Node44 [label="section.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$d1/d2a/section_8h.html",tooltip=" "];

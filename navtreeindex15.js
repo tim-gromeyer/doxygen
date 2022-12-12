@@ -1,13 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d1/dd9/class_plantuml_manager.html#af38a83e442553a769951c724353cbe6a":[8,0,436,7],
-"d1/dd9/class_plantuml_manager.html#af6f1c6249e4127996095d0086442fa0f":[8,0,436,4],
-"d1/dd9/class_plantuml_manager.html#af736b55d9c30405deb9333eb840339da":[8,0,436,10],
-"d1/ddd/class_template_token.html":[8,0,540],
-"d1/ddd/class_template_token.html#a44271a10cbc74eea133ed9e92897012e":[8,0,540,3],
-"d1/ddd/class_template_token.html#a45cf31d317b7b01b08e7d0b471284e77":[8,0,540,0],
-"d1/ddd/class_template_token.html#a45cf31d317b7b01b08e7d0b471284e77a311bd7bdbe5632cb06a97793ac88b1c7":[8,0,540,0,1],
-"d1/ddd/class_template_token.html#a45cf31d317b7b01b08e7d0b471284e77a3d3969430e128ce00118a708306518cb":[8,0,540,0,2],
 "d1/ddd/class_template_token.html#a45cf31d317b7b01b08e7d0b471284e77a751b09b335072516710adf86afee4fba":[8,0,540,0,0],
 "d1/ddd/class_template_token.html#a470cd07c2d8ec16824e5c920a984b268":[8,0,540,4],
 "d1/ddd/class_template_token.html#a712ae507076c9b03b88f72174a817a44":[8,0,540,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX15 =
 "d2/d07/class_translator_esperanto.html#a840eb9d04a6820d3686b39288674fee7":[8,0,582,181],
 "d2/d07/class_translator_esperanto.html#a8586ba9bf80b0952286207eedde6b28a":[8,0,582,37],
 "d2/d07/class_translator_esperanto.html#a87624c7debaf425b8df52f56990fb5d3":[8,0,582,138],
-"d2/d07/class_translator_esperanto.html#a876f771499e8dd5461c72f1eebcd3e7b":[8,0,582,177]
+"d2/d07/class_translator_esperanto.html#a876f771499e8dd5461c72f1eebcd3e7b":[8,0,582,177],
+"d2/d07/class_translator_esperanto.html#a88067bc066b2b8988ec775e5042ccb1c":[8,0,582,126],
+"d2/d07/class_translator_esperanto.html#a88572a98550e5ae9a575d5d6dd987a10":[8,0,582,70],
+"d2/d07/class_translator_esperanto.html#a8889d9314d449c6ca131f239801d146f":[8,0,582,156],
+"d2/d07/class_translator_esperanto.html#a889ab29e279e06bd315d868881aa949a":[8,0,582,129],
+"d2/d07/class_translator_esperanto.html#a88eeb34ec5b98f853be2350e19fc2339":[8,0,582,64],
+"d2/d07/class_translator_esperanto.html#a893e5c3f579754e4b2ed35dbb3e651fd":[8,0,582,13],
+"d2/d07/class_translator_esperanto.html#a89ae3a788a4f45f3c303edced121645a":[8,0,582,163],
+"d2/d07/class_translator_esperanto.html#a89daa1eba9924f2a94983146fbb8df1d":[8,0,582,136]
 };

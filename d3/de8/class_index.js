@@ -1,13 +1,21 @@
 var class_index =
 [
     [ "Private", "d2/d5a/struct_index_1_1_private.html", "d2/d5a/struct_index_1_1_private" ],
+    [ "MemberIndexList", "d3/de8/class_index.html#a1157714fe944e90e55bd37f9fd7daf97", null ],
+    [ "MemberIndexMap", "d3/de8/class_index.html#ab3b02b47d48388ced98a248c18c830f2", null ],
     [ "Index", "d3/de8/class_index.html#ae767eedba252c26cc0dc5e60f0b9ed9b", null ],
     [ "~Index", "d3/de8/class_index.html#a76b7ed4e9cb0b1540264567f84896032", null ],
+    [ "addClassMemberNameToIndex", "d3/de8/class_index.html#a1153de637b2551bc2ae88578ec6e295f", null ],
+    [ "addFileMemberNameToIndex", "d3/de8/class_index.html#a79a8496dde56d56eadf905399ec62dcf", null ],
+    [ "addNamespaceMemberNameToIndex", "d3/de8/class_index.html#a638834a45c0d08559e4b0fc8bdb19b8b", null ],
     [ "countDataStructures", "d3/de8/class_index.html#ac2bc41479d376ce6d2e6fb8060a7bd9d", null ],
-    [ "incrementDocumentedClassMembers", "d3/de8/class_index.html#a9616645bc43ade924859405840e826b6", null ],
-    [ "incrementDocumentedFileMembers", "d3/de8/class_index.html#a5480e57681b9e5568b91a3fef9b25743", null ],
-    [ "incrementDocumentedNamespaceMembers", "d3/de8/class_index.html#a9c6ddf8865501a7963d117a6aef435aa", null ],
+    [ "incrementDocumentedClassMembers", "d3/de8/class_index.html#a6909c007c92cb536d92777041b94572e", null ],
+    [ "incrementDocumentedFileMembers", "d3/de8/class_index.html#a571d7d176702f156edf6696f9c35e18a", null ],
+    [ "incrementDocumentedNamespaceMembers", "d3/de8/class_index.html#a034c843057b5fae04eafa9d5fd65132b", null ],
     [ "instance", "d3/de8/class_index.html#ab53e77b97daee95a50bafc51a13cf942", null ],
+    [ "isClassIndexLetterUsed", "d3/de8/class_index.html#a7062c869752b4fb793231ab02a9b9dbb", null ],
+    [ "isFileIndexLetterUsed", "d3/de8/class_index.html#aab5815a4d7953cd9c521d7d321f44711", null ],
+    [ "isNamespaceIndexLetterUsed", "d3/de8/class_index.html#afee07e8c5675ed5e02cedd96b0d1c8f3", null ],
     [ "numAnnotatedClasses", "d3/de8/class_index.html#af37cf6a7a2562f4366e327323e778307", null ],
     [ "numAnnotatedClassesPrinted", "d3/de8/class_index.html#a4290e0161e467cd46dc3a714cc3c70d7", null ],
     [ "numAnnotatedExceptions", "d3/de8/class_index.html#aa71ffe4525166408dba7f3202d1caec2", null ],
@@ -32,5 +40,6 @@ var class_index =
     [ "resetDocumentedClassMembers", "d3/de8/class_index.html#a63e77239d5230933fed35503ebecb7fd", null ],
     [ "resetDocumentedFileMembers", "d3/de8/class_index.html#ad15f032c9a8c4d7f689d85db7c080e68", null ],
     [ "resetDocumentedNamespaceMembers", "d3/de8/class_index.html#a2cfbd73c306075733014cac63bad4df1", null ],
+    [ "sortMemberIndexLists", "d3/de8/class_index.html#ab0b4e561052b020ce0295b5fa229339a", null ],
     [ "p", "d3/de8/class_index.html#aef8edf372b0c397a010b433f6aa5d349", null ]
 ];

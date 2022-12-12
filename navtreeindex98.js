@@ -1,13 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"dd/d38/class_translator_norwegian.html#ac21330f4db8f249fc193e9d0363e6089":[8,0,598,129],
-"dd/d38/class_translator_norwegian.html#ac3e851e771f6d68cd6e1b8927b3af0d5":[8,0,598,112],
-"dd/d38/class_translator_norwegian.html#acab1a0e50b63fd901eba63f71536205c":[8,0,598,167],
-"dd/d38/class_translator_norwegian.html#acb168310f82d3a8f4167bbc3a6004782":[8,0,598,114],
-"dd/d38/class_translator_norwegian.html#acca696930b1f69826a09951a73821da6":[8,0,598,56],
-"dd/d38/class_translator_norwegian.html#ace11863f9cec6224bb4f532e27c5d47d":[8,0,598,124],
-"dd/d38/class_translator_norwegian.html#acf451810ff968f76cd5c729ce9540808":[8,0,598,180],
-"dd/d38/class_translator_norwegian.html#acf874ad0d57a0ed281725e85405bac36":[8,0,598,73],
 "dd/d38/class_translator_norwegian.html#ad08b4ee775802b6f1d6233da3a095caa":[8,0,598,98],
 "dd/d38/class_translator_norwegian.html#ad29c3555c4f77e08afde69b18aa3a984":[8,0,598,164],
 "dd/d38/class_translator_norwegian.html#ad2e34e86d6d763c36b0d4dce48c2cbec":[8,0,598,155],
@@ -249,5 +241,13 @@ var NAVTREEINDEX98 =
 "dd/d74/struct_qhp_section_tree_1_1_node.html#a3dcbc162c389c119d8b5b83ac29bf70f":[8,0,449,0,3],
 "dd/d74/struct_qhp_section_tree_1_1_node.html#a50e5e4f52f69ddb808ebca2732d2f85b":[8,0,449,0,8],
 "dd/d74/struct_qhp_section_tree_1_1_node.html#a8fd0cb872e4f1762747df4dfa5578dfc":[8,0,449,0,1],
-"dd/d74/struct_qhp_section_tree_1_1_node.html#aa19c2c4bb91af14d01fabd837474f295":[8,0,449,0,0]
+"dd/d74/struct_qhp_section_tree_1_1_node.html#aa19c2c4bb91af14d01fabd837474f295":[8,0,449,0,0],
+"dd/d74/struct_qhp_section_tree_1_1_node.html#aa19c2c4bb91af14d01fabd837474f295a3c4e6dbf3e1df93a734d9959bac9ee94":[8,0,449,0,0,1],
+"dd/d74/struct_qhp_section_tree_1_1_node.html#aa19c2c4bb91af14d01fabd837474f295ad2c24d59e0baff4d0155fbdf62590867":[8,0,449,0,0,2],
+"dd/d74/struct_qhp_section_tree_1_1_node.html#aa19c2c4bb91af14d01fabd837474f295afa03eb688ad8aa1db593d33dabd89bad":[8,0,449,0,0,0],
+"dd/d74/struct_qhp_section_tree_1_1_node.html#ab942c20976695e0bcf5ec49c258f6597":[8,0,449,0,5],
+"dd/d74/struct_qhp_section_tree_1_1_node.html#acb9e6773f55b39f54bd63ff2e90a9eee":[8,0,449,0,2],
+"dd/d77/translator__tw_8h.html":[9,0,2,285],
+"dd/d77/translator__tw_8h_source.html":[9,0,2,285],
+"dd/d78/memberlist_8h.html":[9,0,2,172]
 };

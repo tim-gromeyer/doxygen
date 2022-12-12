@@ -1,13 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d2/d4c/class_translator_brazilian.html#a10a42a514b7a1e575de75f373a006f81":[8,0,572,262],
-"d2/d4c/class_translator_brazilian.html#a113f6b6102ae27b7c1a82545916e95b7":[8,0,572,40],
-"d2/d4c/class_translator_brazilian.html#a135237bf1214efac6ddc7cfae24ffa18":[8,0,572,221],
-"d2/d4c/class_translator_brazilian.html#a1365bdabd9638389ed3d3c335cab683a":[8,0,572,237],
-"d2/d4c/class_translator_brazilian.html#a136a3d5a3c8dbc2aa2b1e36a1cd64943":[8,0,572,277],
-"d2/d4c/class_translator_brazilian.html#a163e73d491993802d5318f7493adef73":[8,0,572,180],
-"d2/d4c/class_translator_brazilian.html#a17b0487abd10850e2a526f823ebfa8dd":[8,0,572,233],
-"d2/d4c/class_translator_brazilian.html#a188b5771a5917e1a17aa87d81c4e493d":[8,0,572,268],
 "d2/d4c/class_translator_brazilian.html#a18cd0bfe03a7af67b005866018ea3e84":[8,0,572,187],
 "d2/d4c/class_translator_brazilian.html#a18db7766c026b3598cba4934be1fcd04":[8,0,572,58],
 "d2/d4c/class_translator_brazilian.html#a190f58095888ba21251372961e6cd428":[8,0,572,286],
@@ -249,5 +241,13 @@ var NAVTREEINDEX17 =
 "d2/d4c/class_translator_brazilian.html#ae8055763a1567f6f2ab804b2c6e5712a":[8,0,572,113],
 "d2/d4c/class_translator_brazilian.html#ae861972de2d25e3de54e214b7d7ad0a8":[8,0,572,160],
 "d2/d4c/class_translator_brazilian.html#ae8bb17745312e11222333d37a8699b85":[8,0,572,29],
-"d2/d4c/class_translator_brazilian.html#ae961c42bbf858517618be23bea083525":[8,0,572,20]
+"d2/d4c/class_translator_brazilian.html#ae961c42bbf858517618be23bea083525":[8,0,572,20],
+"d2/d4c/class_translator_brazilian.html#ae9a2204cd17ac2c5a5cc7bf2e4061c67":[8,0,572,26],
+"d2/d4c/class_translator_brazilian.html#aea9effa4a1431a838ccb3c8c728d9507":[8,0,572,147],
+"d2/d4c/class_translator_brazilian.html#aead0fccaa5d73346177e8137bbc0c44e":[8,0,572,65],
+"d2/d4c/class_translator_brazilian.html#aeaeb16bc0bff2e8c053a3746892711d4":[8,0,572,238],
+"d2/d4c/class_translator_brazilian.html#aeb98074342c680b6309697992f3d2187":[8,0,572,269],
+"d2/d4c/class_translator_brazilian.html#aebe00e16cdea8ea6c3b4636b2c6628c5":[8,0,572,206],
+"d2/d4c/class_translator_brazilian.html#aec10651691524b1eb605047c5753dbfd":[8,0,572,94],
+"d2/d4c/class_translator_brazilian.html#aedf1e86f70113799a925e842f91fe7c3":[8,0,572,103]
 };

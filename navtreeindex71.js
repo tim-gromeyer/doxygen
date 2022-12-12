@@ -1,5 +1,12 @@
 var NAVTREEINDEX71 =
 {
+"d9/ddf/class_translator_macedonian.html#a5189f502812f77b987f1f47410d775ca":[8,0,597,38],
+"d9/ddf/class_translator_macedonian.html#a51a94cc990d3e8c730ed42a701548db9":[8,0,597,88],
+"d9/ddf/class_translator_macedonian.html#a5518771e4db4f1dbb5c9b12c5893df1e":[8,0,597,112],
+"d9/ddf/class_translator_macedonian.html#a5622327f66d26ad91ffa37972b3640d3":[8,0,597,132],
+"d9/ddf/class_translator_macedonian.html#a5663b813b92f64605b9350d383aa91f0":[8,0,597,111],
+"d9/ddf/class_translator_macedonian.html#a56cadab506bd2f5987b94fbe1a7e5c6f":[8,0,597,65],
+"d9/ddf/class_translator_macedonian.html#a572cc28b6c4cb8359e6971f2f3877f46":[8,0,597,69],
 "d9/ddf/class_translator_macedonian.html#a585037d6f5dd384c7eb8c66654e253d1":[8,0,597,152],
 "d9/ddf/class_translator_macedonian.html#a59625513fd135176723d1eb272bdcbf8":[8,0,597,162],
 "d9/ddf/class_translator_macedonian.html#a5bbb13810a5d357f373047aba8b47b53":[8,0,597,80],
@@ -242,12 +249,5 @@ var NAVTREEINDEX71 =
 "d9/de9/structfortrancode_y_y__state.html#aa64248f0d459a3ee4f6210eb82e0d4eb":[8,0,289,2],
 "d9/de9/structfortrancode_y_y__state.html#aab2587d35daad3ecce661d70e4c5d4c0":[8,0,289,6],
 "d9/de9/structfortrancode_y_y__state.html#aae07fa5f933246f6aaaa25b120eecde8":[8,0,289,26],
-"d9/de9/structfortrancode_y_y__state.html#ab24b6dfcfebc2461ee174e26ed852cc1":[8,0,289,23],
-"d9/de9/structfortrancode_y_y__state.html#ab29317985a6bd77265a3e5d7807247f0":[8,0,289,31],
-"d9/de9/structfortrancode_y_y__state.html#ab3018640a72c5b4fc54813e7209d1851":[8,0,289,12],
-"d9/de9/structfortrancode_y_y__state.html#ad190f1f73ea2116bae815c70896656fc":[8,0,289,7],
-"d9/de9/structfortrancode_y_y__state.html#ad1d18deb01892a6afb5a6a3567851072":[8,0,289,24],
-"d9/de9/structfortrancode_y_y__state.html#ad41aeecc6b3529138a35105e53e46723":[8,0,289,33],
-"d9/de9/structfortrancode_y_y__state.html#ad45e3583ce319dec4eddee5a60a03904":[8,0,289,21],
-"d9/de9/structfortrancode_y_y__state.html#ad63750b84a7f0270446b32ab496d97d3":[8,0,289,13]
+"d9/de9/structfortrancode_y_y__state.html#ab24b6dfcfebc2461ee174e26ed852cc1":[8,0,289,23]
 };
