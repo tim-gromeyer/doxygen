@@ -7174,12 +7174,12 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 5668</span>&lt;ClassTemplSpec&gt;.                       {</div>
 <div class="line"><span class="lineno"> 5669</span>                                          yyextra-&gt;current-&gt;name += yytext;</div>
 <div class="line"><span class="lineno"> 5670</span>                                        }</div>
-<div class="line"><span class="lineno"> 5671</span>&lt;CompoundName&gt;{SCOPENAME}{BN}*&quot;;&quot;       { // forward declaration?</div>
+<div class="line"><span class="lineno"> 5671</span>&lt;CompoundName&gt;({SCOPENAME}|{CSSCOPENAME}){BN}*&quot;;&quot;       { // forward declaration?</div>
 <div class="line"><span class="lineno"> 5672</span>                                          <span class="keywordflow">if</span> (yyextra-&gt;insideCS &amp;&amp; yyextra-&gt;current-&gt;type == <span class="stringliteral">&quot;namespace&quot;</span>)</div>
 <div class="line"><span class="lineno"> 5673</span>                                          {</div>
 <div class="line"><span class="lineno"> 5674</span>                                            <span class="comment">// file scoped CSharp namespace</span></div>
 <div class="line"><span class="lineno"> 5675</span>                                            <a class="code hl_define" href="../../d1/d39/doctokenizer_8l.html#a6256e57feb94db36e0dd7c3c83c9180a">lineCount</a>(yyscanner);</div>
-<div class="line"><span class="lineno"> 5676</span>                                            yyextra-&gt;current-&gt;name = yytext;</div>
+<div class="line"><span class="lineno"> 5676</span>                                            yyextra-&gt;current-&gt;name = <a class="code hl_function" href="../../d5/d3e/qcstring_8cpp.html#a99187f0723aa35b7f06be3a5506b1285">substitute</a>(yytext,<span class="stringliteral">&quot;.&quot;</span>,<span class="stringliteral">&quot;::&quot;</span>);</div>
 <div class="line"><span class="lineno"> 5677</span>                                            yyextra-&gt;current-&gt;name=yyextra-&gt;current-&gt;name.left(yyextra-&gt;current-&gt;name.length()-1).stripWhiteSpace();</div>
 <div class="line"><span class="lineno"> 5678</span>                                            yyextra-&gt;fakeNS++;</div>
 <div class="line"><span class="lineno"> 5679</span>                                            unput(<span class="charliteral">&#39;{&#39;</span>); <span class="comment">// fake start of body</span></div>
