@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"df/dc8/class_translator_indonesian.html#a2322f998123a9a293465631ef45b6a67":[8,0,591,31],
+"df/dc8/class_translator_indonesian.html#a23232dd2ab884182c180786942063f6f":[8,0,591,71],
 "df/dc8/class_translator_indonesian.html#a237ee67dd021810a16cdeaa54960aa3a":[8,0,591,210],
 "df/dc8/class_translator_indonesian.html#a247b2462eae3f61a7e89b6e552893b48":[8,0,591,18],
 "df/dc8/class_translator_indonesian.html#a284a628bd14f0842ed627cab396c23b6":[8,0,591,213],
@@ -200,16 +202,16 @@ var NAVTREEINDEX127 =
 "df/dc9/docparser__p_8h.html#af5482286b814ee04eea804a9a3261cf4":[9,0,2,70,7],
 "df/dc9/docparser__p_8h.html#af8c289300738a7353cb8e47d343e7998":[9,0,2,70,9],
 "df/dc9/docparser__p_8h_source.html":[9,0,2,70],
-"df/dcd/classreg_1_1_ex_1_1_private.html":[8,0,3,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html":[7,0,9,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,9,0,0,2],
+"df/dcd/classreg_1_1_ex_1_1_private.html":[8,0,3,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[8,0,3,0,0,2],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a26bba20b316615c53a77eb522602df8a":[7,0,9,0,0,2],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[8,0,3,0,0,4],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a3d43ef3d3304bc786d75340eac860780":[7,0,9,0,0,4],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,3,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[7,0,9,0,0,0],
-"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,3,0,0,1],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a51e12007f0f7866ad4117c489e90cb8e":[8,0,3,0,0,0],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[7,0,9,0,0,1],
+"df/dcd/classreg_1_1_ex_1_1_private.html#a5ae763e5ab5231eae1133e68093c49be":[8,0,3,0,0,1],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[7,0,9,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#a68af93bd4fbea3f82ee8e36af3a6e68b":[8,0,3,0,0,5],
 "df/dcd/classreg_1_1_ex_1_1_private.html#afd98016e2bda56b81308bdc907569ead":[8,0,3,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "df/de7/struct_layout_nav_entry.html":[8,0,353],
 "df/de7/struct_layout_nav_entry.html#a006dfaa93d3dee670dd4ae22d28a1db7":[8,0,353,12],
 "df/de7/struct_layout_nav_entry.html#a0868a73140cbd85d9a2f50f597dc3b06":[8,0,353,18],
-"df/de7/struct_layout_nav_entry.html#a0c12a3f992aa3c0727310e1a686332e3":[8,0,353,22],
-"df/de7/struct_layout_nav_entry.html#a14dabfdf60d47142677768a4b0735214":[8,0,353,14],
-"df/de7/struct_layout_nav_entry.html#a17dc5d09c4df07c0d49275ed2d95e789":[8,0,353,3]
+"df/de7/struct_layout_nav_entry.html#a0c12a3f992aa3c0727310e1a686332e3":[8,0,353,22]
 };

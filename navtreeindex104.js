@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"dd/df6/class_translator_chinesetraditional.html#abf715b71b85daede947b0f17f7c29933":[8,0,578,9],
+"dd/df6/class_translator_chinesetraditional.html#ac0396dc7e8551600fb718e8a555fa392":[8,0,578,211],
 "dd/df6/class_translator_chinesetraditional.html#ac17ad709071a125acce82c295add2e1f":[8,0,578,236],
 "dd/df6/class_translator_chinesetraditional.html#ac2de12d719aed877943718f00ba68b9a":[8,0,578,240],
 "dd/df6/class_translator_chinesetraditional.html#ac3b40e07275582cfee780a2d5b448e37":[8,0,578,129],
@@ -177,10 +179,10 @@ var NAVTREEINDEX104 =
 "de/d04/markdown_8cpp.html#af7be336445f7b19da5a795df89dc81c3":[9,0,2,165,33],
 "de/d04/markdown_8cpp.html#aff1401435a72ba6f4ad22d5c21d67aab":[9,0,2,165,17],
 "de/d04/markdown_8cpp_source.html":[9,0,2,165],
-"de/d05/structdetails_1_1_impl.html":[7,0,4,0],
 "de/d05/structdetails_1_1_impl.html":[8,0,1,0],
-"de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[7,0,4,0,0],
+"de/d05/structdetails_1_1_impl.html":[7,0,4,0],
 "de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[8,0,1,0,0],
+"de/d05/structdetails_1_1_impl.html#a0fd4278ad6e530e3ed836849026072b6":[7,0,4,0,0],
 "de/d07/searchindex_8h.html":[9,0,2,220],
 "de/d07/searchindex_8h.html#a50d08832d359fc0cce18c3079d46eb9a":[9,0,2,220,14],
 "de/d07/searchindex_8h.html#ad28704628a5159a8fd5ea6f9bc5d2c49":[9,0,2,220,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "de/d23/struct_doc_verbatim_1_1_private.html#a49e92641c6d4edc91edbf2f52d614cd4":[8,0,188,0,2],
 "de/d23/struct_doc_verbatim_1_1_private.html#a4fdd15e7e291db31fe196bd645048c71":[8,0,188,0,4],
 "de/d23/struct_doc_verbatim_1_1_private.html#a55fb9b7978be1657a186e63024839b6f":[8,0,188,0,3],
-"de/d23/struct_doc_verbatim_1_1_private.html#a73bc592207fc628e3e72491846aaca73":[8,0,188,0,10],
-"de/d23/struct_doc_verbatim_1_1_private.html#a7fdb21fa274a1da67fbf3e9208b7c3dd":[8,0,188,0,9],
-"de/d23/struct_doc_verbatim_1_1_private.html#a825b7dc63561cc6ea9ea20fd3b37ce8c":[8,0,188,0,1]
+"de/d23/struct_doc_verbatim_1_1_private.html#a73bc592207fc628e3e72491846aaca73":[8,0,188,0,10]
 };
