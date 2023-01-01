@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"d7/d21/class_translator_danish.html#aeb285efb5b0670a21f02fed16d47bb54":[8,0,581,39],
 "d7/d21/class_translator_danish.html#aef4dbb56629664fccd583460f9193fe5":[8,0,581,174],
 "d7/d21/class_translator_danish.html#aefcdbed48a512082ad9b3990509e2f9b":[8,0,581,209],
 "d7/d21/class_translator_danish.html#af8115ac047c1111084180e5c870fec1b":[8,0,581,18],
@@ -232,22 +233,21 @@ var NAVTREEINDEX52 =
 "d7/d49/classreg_1_1_p_token.html":[8,0,3,3],
 "d7/d49/classreg_1_1_p_token.html#a2def1e14eeb96c08b25e4c906af071b6":[8,0,3,3,13],
 "d7/d49/classreg_1_1_p_token.html#a2def1e14eeb96c08b25e4c906af071b6":[7,0,9,3,13],
-"d7/d49/classreg_1_1_p_token.html#a34589c92a4e8ff59eb14c5536e760929":[8,0,3,3,6],
 "d7/d49/classreg_1_1_p_token.html#a34589c92a4e8ff59eb14c5536e760929":[7,0,9,3,6],
+"d7/d49/classreg_1_1_p_token.html#a34589c92a4e8ff59eb14c5536e760929":[8,0,3,3,6],
 "d7/d49/classreg_1_1_p_token.html#a383d4137455b9fdc268fd0db4b050db0":[7,0,9,3,2],
 "d7/d49/classreg_1_1_p_token.html#a383d4137455b9fdc268fd0db4b050db0":[8,0,3,3,2],
 "d7/d49/classreg_1_1_p_token.html#a3c769c7cb9e8961e5f52187237f94992":[7,0,9,3,3],
 "d7/d49/classreg_1_1_p_token.html#a3c769c7cb9e8961e5f52187237f94992":[8,0,3,3,3],
-"d7/d49/classreg_1_1_p_token.html#a4bcf1a48342ff492138d3aff1e0a6fc0":[7,0,9,3,9],
 "d7/d49/classreg_1_1_p_token.html#a4bcf1a48342ff492138d3aff1e0a6fc0":[8,0,3,3,9],
+"d7/d49/classreg_1_1_p_token.html#a4bcf1a48342ff492138d3aff1e0a6fc0":[7,0,9,3,9],
 "d7/d49/classreg_1_1_p_token.html#a5b947291aff91a346d6526074989a9fa":[8,0,3,3,10],
 "d7/d49/classreg_1_1_p_token.html#a5b947291aff91a346d6526074989a9fa":[7,0,9,3,10],
-"d7/d49/classreg_1_1_p_token.html#a63a09d68f5ded8c563f5a06cdd32db27":[7,0,9,3,1],
 "d7/d49/classreg_1_1_p_token.html#a63a09d68f5ded8c563f5a06cdd32db27":[8,0,3,3,1],
+"d7/d49/classreg_1_1_p_token.html#a63a09d68f5ded8c563f5a06cdd32db27":[7,0,9,3,1],
 "d7/d49/classreg_1_1_p_token.html#a93203bf3f74828336b477ea31fde1a1c":[8,0,3,3,7],
 "d7/d49/classreg_1_1_p_token.html#a93203bf3f74828336b477ea31fde1a1c":[7,0,9,3,7],
-"d7/d49/classreg_1_1_p_token.html#a9648ec9cffa7fc0d1ef165fc5882a552":[7,0,9,3,11],
 "d7/d49/classreg_1_1_p_token.html#a9648ec9cffa7fc0d1ef165fc5882a552":[8,0,3,3,11],
-"d7/d49/classreg_1_1_p_token.html#a9649bb8ecf7bd3f7faf60b56c6fa72f0":[7,0,9,3,0],
+"d7/d49/classreg_1_1_p_token.html#a9648ec9cffa7fc0d1ef165fc5882a552":[7,0,9,3,11],
 "d7/d49/classreg_1_1_p_token.html#a9649bb8ecf7bd3f7faf60b56c6fa72f0":[8,0,3,3,0]
 };

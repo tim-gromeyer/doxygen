@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"d6/db6/class_translator_chinese.html#ad689e60da0423cb2d9d869ee431138ed":[8,0,577,79],
 "d6/db6/class_translator_chinese.html#ad7774d0b6f934b0bc8ee4b9f3d2e2bfc":[8,0,577,287],
 "d6/db6/class_translator_chinese.html#ad901658ccf543f52a90800d8ad522550":[8,0,577,143],
 "d6/db6/class_translator_chinese.html#ada680d91a73b0c1d2a9751f8eac22d45":[8,0,577,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "d7/d1c/namespacedef_8cpp.html#a11cdaa39ac25a83a376fa59f6b0a9cde":[9,0,2,178,11],
 "d7/d1c/namespacedef_8cpp.html#a3d15fcf5c959d5ce9db005cba5692094":[9,0,2,178,6],
 "d7/d1c/namespacedef_8cpp.html#a97d8398a7293fef2b9fd9ff490294ea7":[9,0,2,178,2],
-"d7/d1c/namespacedef_8cpp.html#ac29daa4ae4a11022a30d2deb6934624c":[9,0,2,178,4],
-"d7/d1c/namespacedef_8cpp.html#ac4a3a7d929c1539b4580ef9895c48f0f":[9,0,2,178,9]
+"d7/d1c/namespacedef_8cpp.html#ac29daa4ae4a11022a30d2deb6934624c":[9,0,2,178,4]
 };

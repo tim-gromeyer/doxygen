@@ -23,5 +23,6 @@ var memberdef_8cpp =
     [ "g_cachedAnonymousTypeMutex", "d0/d72/memberdef_8cpp.html#a961ae6d2d358b27f1898087008b186fa", null ],
     [ "g_detectUndocumentedParamsMutex", "d0/d72/memberdef_8cpp.html#a8e711cc7ca7ab729f5b8e1d81d88cf53", null ],
     [ "g_docCrossReferenceMutex", "d0/d72/memberdef_8cpp.html#a6ec17e0e1fa9fc5b2ab522f618f39b88", null ],
+    [ "g_hasDetailedDescriptionMutex", "d0/d72/memberdef_8cpp.html#a62bb009cd0c5ff54af5146380fd18f05", null ],
     [ "reAnonymous", "d0/d72/memberdef_8cpp.html#afaa6100850ded3f073682450f105d7eb", null ]
 ];

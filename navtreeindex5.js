@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d0/dab/class_translator_russian.html#a42691a47ebafb9216afa86a48e208d48":[8,0,605,18],
 "d0/dab/class_translator_russian.html#a428158395562634bf360d3d8eb811079":[8,0,605,108],
 "d0/dab/class_translator_russian.html#a430e608307a8006bb7d1e3583fa7c9ae":[8,0,605,233],
 "d0/dab/class_translator_russian.html#a4418fe7caa15af92771ba113a751747a":[8,0,605,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d0/dc3/xmlgen_8cpp.html#a0da7be0853343b6580993a525ed72a62":[9,0,2,304,8],
 "d0/dc3/xmlgen_8cpp.html#a0f9b3e222369b7d908441a0825b0da84":[9,0,2,304,3],
 "d0/dc3/xmlgen_8cpp.html#a15a13b52d6f40e0f5b5c6afb4a44b71b":[9,0,2,304,37],
-"d0/dc3/xmlgen_8cpp.html#a15db06615223d6d80dbd52c45ea3a3b6":[9,0,2,304,19],
-"d0/dc3/xmlgen_8cpp.html#a1c940bb0e52a01e968bf5524e6c2902f":[9,0,2,304,22]
+"d0/dc3/xmlgen_8cpp.html#a15db06615223d6d80dbd52c45ea3a3b6":[9,0,2,304,19]
 };
