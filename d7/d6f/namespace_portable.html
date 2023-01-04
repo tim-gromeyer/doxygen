@@ -586,17 +586,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00659">659</a> of file <a class="el" href="../../d0/d1c/portable_8cpp_source.html">portable.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  660</span>{</div>
-<div class="line"><span class="lineno">  661</span>  std::ios_base::openmode mode = std::ifstream::in | std::ifstream::binary;</div>
-<div class="line"><span class="lineno">  662</span>  <span class="keywordflow">if</span> (binary)     mode |= std::ios::binary;</div>
-<div class="line"><span class="lineno">  663</span>  <span class="keywordflow">if</span> (openAtEnd)  mode |= std::ios::ate;</div>
-<div class="line"><span class="lineno">  664</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><span class="lineno">  665</span>  <span class="keywordflow">return</span> std::ifstream(fs::path(fileName.str()).wstring(), mode);</div>
-<div class="line"><span class="lineno">  666</span><span class="preprocessor">#else</span></div>
-<div class="line"><span class="lineno">  667</span>  <span class="keywordflow">return</span> std::ifstream(fs::path(fileName.str()).string(), mode);</div>
-<div class="line"><span class="lineno">  668</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  669</span>}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d1c/portable_8cpp_source.html#l00655">655</a> of file <a class="el" href="../../d0/d1c/portable_8cpp_source.html">portable.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  656</span>{</div>
+<div class="line"><span class="lineno">  657</span>  std::ios_base::openmode mode = std::ifstream::in | std::ifstream::binary;</div>
+<div class="line"><span class="lineno">  658</span>  <span class="keywordflow">if</span> (binary)     mode |= std::ios::binary;</div>
+<div class="line"><span class="lineno">  659</span>  <span class="keywordflow">if</span> (openAtEnd)  mode |= std::ios::ate;</div>
+<div class="line"><span class="lineno">  660</span>  <span class="keywordflow">return</span> std::ifstream(fs::path(fileName.str()), mode);</div>
+<div class="line"><span class="lineno">  661</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>.</p>
 
@@ -634,12 +630,8 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">  649</span>{</div>
 <div class="line"><span class="lineno">  650</span>  std::ios_base::openmode mode = std::ofstream::out | std::ofstream::binary;</div>
 <div class="line"><span class="lineno">  651</span>  <span class="keywordflow">if</span> (append) mode |= std::ofstream::app;</div>
-<div class="line"><span class="lineno">  652</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><span class="lineno">  653</span>  <span class="keywordflow">return</span> std::ofstream(fs::path(fileName.str()).wstring(), mode);</div>
-<div class="line"><span class="lineno">  654</span><span class="preprocessor">#else</span></div>
-<div class="line"><span class="lineno">  655</span>  <span class="keywordflow">return</span> std::ofstream(fs::path(fileName.str()).string(), mode);</div>
-<div class="line"><span class="lineno">  656</span><span class="preprocessor">#endif</span></div>
-<div class="line"><span class="lineno">  657</span>}</div>
+<div class="line"><span class="lineno">  652</span>  <span class="keywordflow">return</span> std::ofstream(fs::path(fileName.str()), mode);</div>
+<div class="line"><span class="lineno">  653</span>}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5c/qcstring_8h_source.html#l00483">QCString::str()</a>.</p>
 
