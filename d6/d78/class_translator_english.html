@@ -726,6 +726,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a58e21bb2d91fa529ee9c70adac1137bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af34cd57800abc403e4176c98961bbebd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d78/class_translator_english.html#af34cd57800abc403e4176c98961bbebd">trRelatedSymbolDocumentation</a> ()</td></tr>
 <tr class="separator:af34cd57800abc403e4176c98961bbebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c7b9c2ad1deda11d0c8c001ae26eb4b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d78/class_translator_english.html#a3c7b9c2ad1deda11d0c8c001ae26eb4b">trCompoundType</a> (<a class="el" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939">ClassDef::CompoundType</a> compType, <a class="el" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2">SrcLangExt</a> lang)</td></tr>
+<tr class="separator:a3c7b9c2ad1deda11d0c8c001ae26eb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_translator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_translator')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d8/dfb/class_translator.html">Translator</a></td></tr>
 <tr class="memitem:a8841e027d8a0e661d0cef7e06d75c22a inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a8841e027d8a0e661d0cef7e06d75c22a">updateNeededMessage</a> ()</td></tr>
 <tr class="separator:a8841e027d8a0e661d0cef7e06d75c22a inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1333,6 +1335,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4ff7955912ca0518ed2445fb80ae7d92 inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6b3b50b9379053371baba49fb9426f3 inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#af6b3b50b9379053371baba49fb9426f3">trRelatedSymbolDocumentation</a> ()=0</td></tr>
 <tr class="separator:af6b3b50b9379053371baba49fb9426f3 inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7730d91c3386c4fc59bb19ad63fcb600 inherit pub_methods_class_translator"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfb/class_translator.html#a7730d91c3386c4fc59bb19ad63fcb600">trCompoundType</a> (<a class="el" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939">ClassDef::CompoundType</a> compType, <a class="el" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2">SrcLangExt</a> lang)=0</td></tr>
+<tr class="separator:a7730d91c3386c4fc59bb19ad63fcb600 inherit pub_methods_class_translator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>When defining a translator class for the new language, follow the description in the documentation. One of the steps says that you should copy the <a class="el" href="../../da/d46/translator__en_8h.html">translator_en.h</a> (this) file to your translator_xx.h new file. Your new language should use the <a class="el" href="../../d8/dfb/class_translator.html" title="Abstract base class for all translatable text fragments.">Translator</a> class as the base class. This means that you need to implement exactly the same (pure virtual) methods as the <a class="el" href="../../d6/d78/class_translator_english.html">TranslatorEnglish</a> does. Because of this, it is a good idea to start with the copy of <a class="el" href="../../d6/d78/class_translator_english.html">TranslatorEnglish</a> and replace the strings one by one.</p>
@@ -1480,7 +1484,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01908">1908</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1909</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Additional Inherited Members&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00321">TranslatorAdapter_1_8_0::trAdditionalInheritedMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00324">TranslatorAdapter_1_8_0::trAdditionalInheritedMembers()</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1551,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01886">1886</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1887</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;and &quot;</span>+number+<span class="stringliteral">&quot; more...&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00309">TranslatorAdapter_1_8_0::trAndMore()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00312">TranslatorAdapter_1_8_0::trAndMore()</a>.</p>
 
 </div>
 </div>
@@ -1727,7 +1731,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1541</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Here is the caller graph for this function:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1542</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00460">TranslatorAdapter_1_4_6::trCallerGraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00463">TranslatorAdapter_1_4_6::trCallerGraph()</a>.</p>
 
 </div>
 </div>
@@ -1793,7 +1797,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01862">1862</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1863</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Bibliography&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00335">TranslatorAdapter_1_7_5::trCiteReferences()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00338">TranslatorAdapter_1_7_5::trCiteReferences()</a>.</p>
 
 </div>
 </div>
@@ -1841,6 +1845,8 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1214</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1215</span>    }</div>
 </div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../da/d46/translator__en_8h_source.html#l02373">trCompoundType()</a>.</p>
+
 </div>
 </div>
 <a id="a6bf5629e8941c787f206a015feb26fec" name="a6bf5629e8941c787f206a015feb26fec"></a>
@@ -2072,7 +2078,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1948</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Class Methods&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1949</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00283">TranslatorAdapter_1_8_2::trClassMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00286">TranslatorAdapter_1_8_2::trClassMethods()</a>.</p>
 
 </div>
 </div>
@@ -2214,7 +2220,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01594">1594</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1595</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Data Type Index&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00396">TranslatorAdapter_1_6_0::trCompoundIndexFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00399">TranslatorAdapter_1_6_0::trCompoundIndexFortran()</a>.</p>
 
 </div>
 </div>
@@ -2337,7 +2343,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01567">1567</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1568</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Here are the data types with brief descriptions:&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00390">TranslatorAdapter_1_6_0::trCompoundListDescriptionFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00393">TranslatorAdapter_1_6_0::trCompoundListDescriptionFortran()</a>.</p>
 
 </div>
 </div>
@@ -2370,7 +2376,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01559">1559</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1560</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Data Types List&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00384">TranslatorAdapter_1_6_0::trCompoundListFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00387">TranslatorAdapter_1_6_0::trCompoundListFortran()</a>.</p>
 
 </div>
 </div>
@@ -2535,7 +2541,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1588</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1589</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00393">TranslatorAdapter_1_6_0::trCompoundMembersDescriptionFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00396">TranslatorAdapter_1_6_0::trCompoundMembersDescriptionFortran()</a>.</p>
 
 </div>
 </div>
@@ -2568,7 +2574,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01563">1563</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1564</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Data Fields&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00387">TranslatorAdapter_1_6_0::trCompoundMembersFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00390">TranslatorAdapter_1_6_0::trCompoundMembersFortran()</a>.</p>
 
 </div>
 </div>
@@ -2709,7 +2715,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/da6/classdef_8h_source.html#l00110">ClassDef::Category</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00105">ClassDef::Class</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00111">ClassDef::Exception</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00108">ClassDef::Interface</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00109">ClassDef::Protocol</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00106">ClassDef::Struct</a>, and <a class="el" href="../../d1/da6/classdef_8h_source.html#l00107">ClassDef::Union</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00417">TranslatorAdapter_1_6_0::trCompoundReferenceFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00420">TranslatorAdapter_1_6_0::trCompoundReferenceFortran()</a>.</p>
 
 </div>
 </div>
@@ -2776,7 +2782,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/da6/classdef_8h_source.html#l00110">ClassDef::Category</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00105">ClassDef::Class</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00111">ClassDef::Exception</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00108">ClassDef::Interface</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00109">ClassDef::Protocol</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00106">ClassDef::Struct</a>, and <a class="el" href="../../d1/da6/classdef_8h_source.html#l00107">ClassDef::Union</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00221">TranslatorAdapter_1_8_15::trCompoundReferenceSlice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00224">TranslatorAdapter_1_8_15::trCompoundReferenceSlice()</a>.</p>
 
 </div>
 </div>
@@ -2819,6 +2825,76 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  518</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/config_8h_source.html#l00033">Config_getBool</a>.</p>
+
+</div>
+</div>
+<a id="a3c7b9c2ad1deda11d0c8c001ae26eb4b" name="a3c7b9c2ad1deda11d0c8c001ae26eb4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c7b9c2ad1deda11d0c8c001ae26eb4b">&#9670;&#160;</a></span>trCompoundType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d9/d45/class_q_c_string.html">QCString</a> TranslatorEnglish::trCompoundType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939">ClassDef::CompoundType</a>&#160;</td>
+          <td class="paramname"><em>compType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2">SrcLangExt</a>&#160;</td>
+          <td class="paramname"><em>lang</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>the compound type as used for the xrefitems </p>
+
+<p>Implements <a class="el" href="../../d8/dfb/class_translator.html#a7730d91c3386c4fc59bb19ad63fcb600">Translator</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02373">2373</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2374</span>    {</div>
+<div class="line"><span class="lineno"> 2375</span>      <a class="code hl_class" href="../../d9/d45/class_q_c_string.html">QCString</a> result;</div>
+<div class="line"><span class="lineno"> 2376</span>      <span class="keywordflow">switch</span>(compType)</div>
+<div class="line"><span class="lineno"> 2377</span>      {</div>
+<div class="line"><span class="lineno"> 2378</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a5261cde79065c9b6af97195e43e8073b">ClassDef::Class</a>:</div>
+<div class="line"><span class="lineno"> 2379</span>          <span class="keywordflow">if</span> (lang == <a class="code hl_enumvalue" href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2abc7c7944bb4e705c9e1812b02c89c346">SrcLangExt_Fortran</a>) <a class="code hl_function" href="../../d6/d78/class_translator_english.html#af6506400ea82fc2ef61938349b1bacd9">trType</a>(<span class="keyword">true</span>,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2380</span>          <span class="keywordflow">else</span> result=<a class="code hl_function" href="../../d6/d78/class_translator_english.html#aff7117d56b042c724232f7e430067260">trClass</a>(<span class="keyword">true</span>,<span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2381</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2382</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939adbed80de6b389027e03afb5abb06f2c9">ClassDef::Struct</a>:     result=<span class="stringliteral">&quot;Struct&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2383</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a07fb8df6b10c0140665c0421b6f64c09">ClassDef::Union</a>:      result=<span class="stringliteral">&quot;Union&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2384</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a6ff6e3b1bbf7e59a752826880e148528">ClassDef::Interface</a>:  result=<span class="stringliteral">&quot;Interface&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2385</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a16feb88dead0850cea552a51ad9d26b5">ClassDef::Protocol</a>:   result=<span class="stringliteral">&quot;Protocol&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2386</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a937d0378cd8fb4b49efe215cc6c00469">ClassDef::Category</a>:   result=<span class="stringliteral">&quot;Category&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2387</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939ad14369c9a6f5e3977c0e02714a4beba8">ClassDef::Exception</a>:  result=<span class="stringliteral">&quot;Exception&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2388</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939aaf2c9d4d2eaa6e6a614d7bd164a29c0e">ClassDef::Service</a>:    result=<span class="stringliteral">&quot;Service&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2389</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a34f6a5dd42307d62a5fe3038b245a667">ClassDef::Singleton</a>:  result=<span class="stringliteral">&quot;Singleton&quot;</span>; <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2390</span>        <span class="keywordflow">default</span>: <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2391</span>      }</div>
+<div class="line"><span class="lineno"> 2392</span>      <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno"> 2393</span>    }</div>
+<div class="ttc" id="aclass_class_def_html_ae70cf86d35fe954a94c566fbcfc87939a34f6a5dd42307d62a5fe3038b245a667"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939a34f6a5dd42307d62a5fe3038b245a667">ClassDef::Singleton</a></div><div class="ttdeci">@ Singleton</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da6/classdef_8h_source.html#l00113">classdef.h:113</a></div></div>
+<div class="ttc" id="aclass_class_def_html_ae70cf86d35fe954a94c566fbcfc87939aaf2c9d4d2eaa6e6a614d7bd164a29c0e"><div class="ttname"><a href="../../d1/dcf/class_class_def.html#ae70cf86d35fe954a94c566fbcfc87939aaf2c9d4d2eaa6e6a614d7bd164a29c0e">ClassDef::Service</a></div><div class="ttdeci">@ Service</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da6/classdef_8h_source.html#l00112">classdef.h:112</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_af6506400ea82fc2ef61938349b1bacd9"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#af6506400ea82fc2ef61938349b1bacd9">TranslatorEnglish::trType</a></div><div class="ttdeci">virtual QCString trType(bool first_capital, bool singular)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01729">translator_en.h:1729</a></div></div>
+<div class="ttc" id="aclass_translator_english_html_aff7117d56b042c724232f7e430067260"><div class="ttname"><a href="../../d6/d78/class_translator_english.html#aff7117d56b042c724232f7e430067260">TranslatorEnglish::trClass</a></div><div class="ttdeci">virtual QCString trClass(bool first_capital, bool singular)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/translator__en_8h_source.html#l01210">translator_en.h:1210</a></div></div>
+<div class="ttc" id="atypes_8h_html_a9974623ce72fc23df5d64426b9178bf2abc7c7944bb4e705c9e1812b02c89c346"><div class="ttname"><a href="../../d9/d49/types_8h.html#a9974623ce72fc23df5d64426b9178bf2abc7c7944bb4e705c9e1812b02c89c346">SrcLangExt_Fortran</a></div><div class="ttdeci">@ SrcLangExt_Fortran</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00053">types.h:53</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d1/da6/classdef_8h_source.html#l00110">ClassDef::Category</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00105">ClassDef::Class</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00111">ClassDef::Exception</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00108">ClassDef::Interface</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00109">ClassDef::Protocol</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00112">ClassDef::Service</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00113">ClassDef::Singleton</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00053">SrcLangExt_Fortran</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00106">ClassDef::Struct</a>, <a class="el" href="../../da/d46/translator__en_8h_source.html#l01210">trClass()</a>, <a class="el" href="../../da/d46/translator__en_8h_source.html#l01729">trType()</a>, and <a class="el" href="../../d1/da6/classdef_8h_source.html#l00107">ClassDef::Union</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00057">TranslatorAdapter_1_9_6::trCompoundType()</a>.</p>
 
 </div>
 </div>
@@ -2867,7 +2943,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2288</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 2289</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00084">TranslatorAdapter_1_9_2::trConcept()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00087">TranslatorAdapter_1_9_2::trConcept()</a>.</p>
 
 </div>
 </div>
@@ -2902,7 +2978,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2322</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Concept definition&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2323</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00102">TranslatorAdapter_1_9_2::trConceptDefinition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00105">TranslatorAdapter_1_9_2::trConceptDefinition()</a>.</p>
 
 </div>
 </div>
@@ -2935,7 +3011,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02307">2307</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2308</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Concept Documentation&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00096">TranslatorAdapter_1_9_2::trConceptDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00099">TranslatorAdapter_1_9_2::trConceptDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -2968,7 +3044,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02303">2303</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2304</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Concept Index&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00093">TranslatorAdapter_1_9_2::trConceptIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00096">TranslatorAdapter_1_9_2::trConceptIndex()</a>.</p>
 
 </div>
 </div>
@@ -3001,7 +3077,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02299">2299</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2300</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Concept List&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00090">TranslatorAdapter_1_9_2::trConceptList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00093">TranslatorAdapter_1_9_2::trConceptList()</a>.</p>
 
 </div>
 </div>
@@ -3040,7 +3116,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2316</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 2317</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00099">TranslatorAdapter_1_9_2::trConceptListDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00102">TranslatorAdapter_1_9_2::trConceptListDescription()</a>.</p>
 
 </div>
 </div>
@@ -3078,7 +3154,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2295</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 2296</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00087">TranslatorAdapter_1_9_2::trConceptReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00090">TranslatorAdapter_1_9_2::trConceptReference()</a>.</p>
 
 </div>
 </div>
@@ -3112,7 +3188,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2146</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Constant Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2147</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00152">TranslatorAdapter_1_8_15::trConstantDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00155">TranslatorAdapter_1_8_15::trConstantDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -3151,7 +3227,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1987</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1988</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00252">TranslatorAdapter_1_8_4::trConstantGroupReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00255">TranslatorAdapter_1_8_4::trConstantGroupReference()</a>.</p>
 
 </div>
 </div>
@@ -3185,7 +3261,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01979">1979</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1980</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Constant Groups&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00249">TranslatorAdapter_1_8_4::trConstantGroups()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00252">TranslatorAdapter_1_8_4::trConstantGroups()</a>.</p>
 
 </div>
 </div>
@@ -3219,7 +3295,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2142</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Constants&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2143</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00149">TranslatorAdapter_1_8_15::trConstants()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00152">TranslatorAdapter_1_8_15::trConstants()</a>.</p>
 
 </div>
 </div>
@@ -3285,7 +3361,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01866">1866</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1867</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Copyright&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00338">TranslatorAdapter_1_7_5::trCopyright()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00341">TranslatorAdapter_1_7_5::trCopyright()</a>.</p>
 
 </div>
 </div>
@@ -3318,7 +3394,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02136">2136</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2137</span>    { <span class="keywordflow">return</span> name+<span class="stringliteral">&quot; Reference&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00146">TranslatorAdapter_1_8_15::trCustomReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00149">TranslatorAdapter_1_8_15::trCustomReference()</a>.</p>
 
 </div>
 </div>
@@ -3352,7 +3428,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2268</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Data Member Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2269</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00233">TranslatorAdapter_1_8_15::trDataMemberDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00236">TranslatorAdapter_1_8_15::trDataMemberDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -3386,7 +3462,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2264</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Data Members&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2265</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00230">TranslatorAdapter_1_8_15::trDataMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00233">TranslatorAdapter_1_8_15::trDataMembers()</a>.</p>
 
 </div>
 </div>
@@ -3419,7 +3495,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01618">1618</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1619</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Data Types&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00408">TranslatorAdapter_1_6_0::trDataTypes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00411">TranslatorAdapter_1_6_0::trDataTypes()</a>.</p>
 
 </div>
 </div>
@@ -3563,7 +3639,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d3e/qcstring_8cpp_source.html#l00029">QCString::sprintf()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00348">TranslatorAdapter_1_7_5::trDateTime()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00351">TranslatorAdapter_1_7_5::trDateTime()</a>.</p>
 
 </div>
 </div>
@@ -3650,7 +3726,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1854</span>      <span class="keywordflow">return</span> dayPeriod[period];</div>
 <div class="line"><span class="lineno"> 1855</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00352">TranslatorAdapter_1_7_5::trDayPeriod()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00355">TranslatorAdapter_1_7_5::trDayPeriod()</a>.</p>
 
 </div>
 </div>
@@ -3939,7 +4015,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02276">2276</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2277</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Design Unit Documentation&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/d46/translator__en_8h_source.html#l00413">trClassDocumentation()</a>, and <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00112">TranslatorAdapter_1_8_19::trDesignUnitDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d46/translator__en_8h_source.html#l00413">trClassDocumentation()</a>, and <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00115">TranslatorAdapter_1_8_19::trDesignUnitDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -3973,7 +4049,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02027">2027</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2028</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Design Unit Hierarchy&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00122">TranslatorAdapter_1_8_15::trDesignUnitHierarchy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00125">TranslatorAdapter_1_8_15::trDesignUnitHierarchy()</a>.</p>
 
 </div>
 </div>
@@ -4007,7 +4083,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02042">2042</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2043</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Design Unit Index&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00134">TranslatorAdapter_1_8_15::trDesignUnitIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00137">TranslatorAdapter_1_8_15::trDesignUnitIndex()</a>.</p>
 
 </div>
 </div>
@@ -4041,7 +4117,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02030">2030</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2031</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Design Unit List&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00125">TranslatorAdapter_1_8_15::trDesignUnitList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00128">TranslatorAdapter_1_8_15::trDesignUnitList()</a>.</p>
 
 </div>
 </div>
@@ -4078,7 +4154,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2039</span>            <span class="stringliteral">&quot;the Entities they belong to:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2040</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00131">TranslatorAdapter_1_8_15::trDesignUnitListDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00134">TranslatorAdapter_1_8_15::trDesignUnitListDescription()</a>.</p>
 
 </div>
 </div>
@@ -4112,7 +4188,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02033">2033</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2034</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Design Unit Members&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00128">TranslatorAdapter_1_8_15::trDesignUnitMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00131">TranslatorAdapter_1_8_15::trDesignUnitMembers()</a>.</p>
 
 </div>
 </div>
@@ -4146,7 +4222,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02045">2045</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2046</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Design Units&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00137">TranslatorAdapter_1_8_15::trDesignUnits()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00140">TranslatorAdapter_1_8_15::trDesignUnits()</a>.</p>
 
 </div>
 </div>
@@ -4210,7 +4286,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01878">1878</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1879</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;detail level&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00303">TranslatorAdapter_1_8_0::trDetailLevel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00306">TranslatorAdapter_1_8_0::trDetailLevel()</a>.</p>
 
 </div>
 </div>
@@ -4275,7 +4351,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2158</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Dictionaries&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2159</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00161">TranslatorAdapter_1_8_15::trDictionaries()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00164">TranslatorAdapter_1_8_15::trDictionaries()</a>.</p>
 
 </div>
 </div>
@@ -4309,7 +4385,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2162</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Dictionary Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2163</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00164">TranslatorAdapter_1_8_15::trDictionaryDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00167">TranslatorAdapter_1_8_15::trDictionaryDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -4389,7 +4465,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01870">1870</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1871</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Directory dependency graph for &quot;</span>+name+<span class="stringliteral">&quot;:&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00341">TranslatorAdapter_1_7_5::trDirDepGraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00344">TranslatorAdapter_1_7_5::trDirDepGraph()</a>.</p>
 
 </div>
 </div>
@@ -4550,7 +4626,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1760</span>      <span class="keywordflow">return</span> name+<span class="stringliteral">&quot; Relation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1761</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00366">TranslatorAdapter_1_6_0::trDirRelation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00369">TranslatorAdapter_1_6_0::trDirRelation()</a>.</p>
 
 </div>
 </div>
@@ -4676,7 +4752,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01547">1547</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1548</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Enumerator Documentation&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00464">TranslatorAdapter_1_4_6::trEnumerationValueDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00467">TranslatorAdapter_1_4_6::trEnumerationValueDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -4745,7 +4821,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1894</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1895</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00312">TranslatorAdapter_1_8_0::trEnumGeneratedFromFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00315">TranslatorAdapter_1_8_0::trEnumGeneratedFromFiles()</a>.</p>
 
 </div>
 </div>
@@ -4810,7 +4886,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01898">1898</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1899</span>    { <span class="keywordflow">return</span> name+<span class="stringliteral">&quot; Enum Reference&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00315">TranslatorAdapter_1_8_0::trEnumReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00318">TranslatorAdapter_1_8_0::trEnumReference()</a>.</p>
 
 </div>
 </div>
@@ -5003,7 +5079,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2234</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Exception Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2235</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00218">TranslatorAdapter_1_8_15::trExceptionDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00221">TranslatorAdapter_1_8_15::trExceptionDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -5037,7 +5113,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2226</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Exception Hierarchy&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2227</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00212">TranslatorAdapter_1_8_15::trExceptionHierarchy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00215">TranslatorAdapter_1_8_15::trExceptionHierarchy()</a>.</p>
 
 </div>
 </div>
@@ -5071,7 +5147,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2230</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;This inheritance list is sorted roughly, but not completely, alphabetically:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2231</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00215">TranslatorAdapter_1_8_15::trExceptionHierarchyDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00218">TranslatorAdapter_1_8_15::trExceptionHierarchyDescription()</a>.</p>
 
 </div>
 </div>
@@ -5105,7 +5181,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2214</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Exception Index&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2215</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00203">TranslatorAdapter_1_8_15::trExceptionIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00206">TranslatorAdapter_1_8_15::trExceptionIndex()</a>.</p>
 
 </div>
 </div>
@@ -5139,7 +5215,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2218</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Exception List&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2219</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00206">TranslatorAdapter_1_8_15::trExceptionList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00209">TranslatorAdapter_1_8_15::trExceptionList()</a>.</p>
 
 </div>
 </div>
@@ -5173,7 +5249,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2222</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Here are the exceptions with brief descriptions:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2223</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00209">TranslatorAdapter_1_8_15::trExceptionListDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00212">TranslatorAdapter_1_8_15::trExceptionListDescription()</a>.</p>
 
 </div>
 </div>
@@ -5239,7 +5315,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1940</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Extends class @0.&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1941</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00280">TranslatorAdapter_1_8_2::trExtendsClass()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00283">TranslatorAdapter_1_8_2::trExtendsClass()</a>.</p>
 
 </div>
 </div>
@@ -5352,7 +5428,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1797</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;File in &quot;</span>+name;</div>
 <div class="line"><span class="lineno"> 1798</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00344">TranslatorAdapter_1_7_5::trFileIn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00347">TranslatorAdapter_1_7_5::trFileIn()</a>.</p>
 
 </div>
 </div>
@@ -5614,7 +5690,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02339">2339</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2340</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Flowchart: &quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00064">TranslatorAdapter_1_9_5::trFlowchart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00067">TranslatorAdapter_1_9_5::trFlowchart()</a>.</p>
 
 </div>
 </div>
@@ -5679,7 +5755,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02048">2048</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2049</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Functions/Procedures/Processes&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00140">TranslatorAdapter_1_8_15::trFunctionAndProc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00143">TranslatorAdapter_1_8_15::trFunctionAndProc()</a>.</p>
 
 </div>
 </div>
@@ -5984,7 +6060,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/da6/classdef_8h_source.html#l00110">ClassDef::Category</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00105">ClassDef::Class</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00111">ClassDef::Exception</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00108">ClassDef::Interface</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00109">ClassDef::Protocol</a>, <a class="el" href="../../d1/da6/classdef_8h_source.html#l00106">ClassDef::Struct</a>, and <a class="el" href="../../d1/da6/classdef_8h_source.html#l00107">ClassDef::Union</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00437">TranslatorAdapter_1_6_0::trGeneratedFromFilesFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00440">TranslatorAdapter_1_6_0::trGeneratedFromFilesFortran()</a>.</p>
 
 </div>
 </div>
@@ -6065,7 +6141,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1772</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Global Namespace&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1773</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00372">TranslatorAdapter_1_6_0::trGlobalNamespace()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00375">TranslatorAdapter_1_6_0::trGlobalNamespace()</a>.</p>
 
 </div>
 </div>
@@ -6480,7 +6556,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1806</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Includes file in &quot;</span>+name;</div>
 <div class="line"><span class="lineno"> 1807</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00346">TranslatorAdapter_1_7_5::trIncludesFileIn()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00349">TranslatorAdapter_1_7_5::trIncludesFileIn()</a>.</p>
 
 </div>
 </div>
@@ -6591,7 +6667,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01902">1902</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1903</span>    { <span class="keywordflow">return</span> members+<span class="stringliteral">&quot; inherited from &quot;</span>+what; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00318">TranslatorAdapter_1_8_0::trInheritedFrom()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00321">TranslatorAdapter_1_8_0::trInheritedFrom()</a>.</p>
 
 </div>
 </div>
@@ -6695,7 +6771,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1956</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Instance Methods&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1957</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00286">TranslatorAdapter_1_8_2::trInstanceMethods()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00289">TranslatorAdapter_1_8_2::trInstanceMethods()</a>.</p>
 
 </div>
 </div>
@@ -6729,7 +6805,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2190</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Interface Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2191</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00185">TranslatorAdapter_1_8_15::trInterfaceDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00188">TranslatorAdapter_1_8_15::trInterfaceDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -6763,7 +6839,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2182</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Interface Hierarchy&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2183</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00179">TranslatorAdapter_1_8_15::trInterfaceHierarchy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00182">TranslatorAdapter_1_8_15::trInterfaceHierarchy()</a>.</p>
 
 </div>
 </div>
@@ -6797,7 +6873,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2186</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;This inheritance list is sorted roughly, but not completely, alphabetically:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2187</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00182">TranslatorAdapter_1_8_15::trInterfaceHierarchyDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00185">TranslatorAdapter_1_8_15::trInterfaceHierarchyDescription()</a>.</p>
 
 </div>
 </div>
@@ -6831,7 +6907,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2170</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Interface Index&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2171</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00170">TranslatorAdapter_1_8_15::trInterfaceIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00173">TranslatorAdapter_1_8_15::trInterfaceIndex()</a>.</p>
 
 </div>
 </div>
@@ -6865,7 +6941,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2174</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Interface List&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2175</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00173">TranslatorAdapter_1_8_15::trInterfaceList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00176">TranslatorAdapter_1_8_15::trInterfaceList()</a>.</p>
 
 </div>
 </div>
@@ -6899,7 +6975,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2178</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Here are the interfaces with brief descriptions:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2179</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00176">TranslatorAdapter_1_8_15::trInterfaceListDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00179">TranslatorAdapter_1_8_15::trInterfaceListDescription()</a>.</p>
 
 </div>
 </div>
@@ -6933,7 +7009,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01971">1971</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1972</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Exported Interfaces&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00243">TranslatorAdapter_1_8_4::trInterfaces()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00246">TranslatorAdapter_1_8_4::trInterfaces()</a>.</p>
 
 </div>
 </div>
@@ -7228,7 +7304,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1766</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Loading...&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1767</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00369">TranslatorAdapter_1_6_0::trLoading()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00372">TranslatorAdapter_1_6_0::trLoading()</a>.</p>
 
 </div>
 </div>
@@ -7453,7 +7529,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01555">1555</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1556</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Member Function/Subroutine Documentation&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00381">TranslatorAdapter_1_6_0::trMemberFunctionDocumentationFortran()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00384">TranslatorAdapter_1_6_0::trMemberFunctionDocumentationFortran()</a>.</p>
 
 </div>
 </div>
@@ -7550,7 +7626,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1963</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Method Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1964</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00289">TranslatorAdapter_1_8_2::trMethodDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00292">TranslatorAdapter_1_8_2::trMethodDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -7598,7 +7674,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1698</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1699</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00434">TranslatorAdapter_1_6_0::trModule()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00437">TranslatorAdapter_1_6_0::trModule()</a>.</p>
 
 </div>
 </div>
@@ -7698,7 +7774,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1660</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1661</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00422">TranslatorAdapter_1_6_0::trModuleReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00425">TranslatorAdapter_1_6_0::trModuleReference()</a>.</p>
 
 </div>
 </div>
@@ -7793,7 +7869,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01687">1687</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1688</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Modules Index&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00431">TranslatorAdapter_1_6_0::trModulesIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00434">TranslatorAdapter_1_6_0::trModulesIndex()</a>.</p>
 
 </div>
 </div>
@@ -7826,7 +7902,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01622">1622</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1623</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Modules List&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00411">TranslatorAdapter_1_6_0::trModulesList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00414">TranslatorAdapter_1_6_0::trModulesList()</a>.</p>
 
 </div>
 </div>
@@ -7865,7 +7941,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1631</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1632</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00414">TranslatorAdapter_1_6_0::trModulesListDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00417">TranslatorAdapter_1_6_0::trModulesListDescription()</a>.</p>
 
 </div>
 </div>
@@ -7912,7 +7988,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1681</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1682</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00428">TranslatorAdapter_1_6_0::trModulesMemberDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00431">TranslatorAdapter_1_6_0::trModulesMemberDescription()</a>.</p>
 
 </div>
 </div>
@@ -7945,7 +8021,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01664">1664</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1665</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Module Members&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00425">TranslatorAdapter_1_6_0::trModulesMembers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00428">TranslatorAdapter_1_6_0::trModulesMembers()</a>.</p>
 
 </div>
 </div>
@@ -8377,7 +8453,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1784</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;No Matches&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1785</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00378">TranslatorAdapter_1_6_0::trNoMatches()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00381">TranslatorAdapter_1_6_0::trNoMatches()</a>.</p>
 
 </div>
 </div>
@@ -8443,7 +8519,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2260</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Operation Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2261</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00227">TranslatorAdapter_1_8_15::trOperationDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00230">TranslatorAdapter_1_8_15::trOperationDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -8477,7 +8553,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 2256</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Operations&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2257</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00224">TranslatorAdapter_1_8_15::trOperations()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00227">TranslatorAdapter_1_8_15::trOperations()</a>.</p>
 
 </div>
 </div>
@@ -8644,7 +8720,7 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l02329">2329</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 2330</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Package List&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00074">TranslatorAdapter_1_9_4::trPackageList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00077">TranslatorAdapter_1_9_4::trPackageList()</a>.</p>
 
 </div>
 </div>
@@ -8921,7 +8997,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1922</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;click to &quot;</span>+opt+<span class="stringliteral">&quot; panel synchronisation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1923</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00274">TranslatorAdapter_1_8_2::trPanelSynchronisationTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00277">TranslatorAdapter_1_8_2::trPanelSynchronisationTooltip()</a>.</p>
 
 </div>
 </div>
@@ -9367,7 +9443,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno"> 1931</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Provided by category @0.&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1932</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00277">TranslatorAdapter_1_8_2::trProvidedByCategory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00280">TranslatorAdapter_1_8_2::trProvidedByCategory()</a>.</p>
 
 </div>
 </div>
@@ -10235,7 +10311,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 1778</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Searching...&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1779</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00375">TranslatorAdapter_1_6_0::trSearching()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00378">TranslatorAdapter_1_6_0::trSearching()</a>.</p>
 
 </div>
 </div>
@@ -10412,7 +10488,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2154</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Sequence Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2155</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00158">TranslatorAdapter_1_8_15::trSequenceDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00161">TranslatorAdapter_1_8_15::trSequenceDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -10446,7 +10522,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2150</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Sequences&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2151</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00155">TranslatorAdapter_1_8_15::trSequences()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00158">TranslatorAdapter_1_8_15::trSequences()</a>.</p>
 
 </div>
 </div>
@@ -10487,7 +10563,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2010</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 2011</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00261">TranslatorAdapter_1_8_4::trServiceGeneratedFromFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00264">TranslatorAdapter_1_8_4::trServiceGeneratedFromFiles()</a>.</p>
 
 </div>
 </div>
@@ -10526,7 +10602,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 1994</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1995</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00255">TranslatorAdapter_1_8_4::trServiceReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00258">TranslatorAdapter_1_8_4::trServiceReference()</a>.</p>
 
 </div>
 </div>
@@ -10560,7 +10636,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01975">1975</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1976</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Included Services&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00246">TranslatorAdapter_1_8_4::trServices()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00249">TranslatorAdapter_1_8_4::trServices()</a>.</p>
 
 </div>
 </div>
@@ -10663,7 +10739,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2019</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 2020</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00264">TranslatorAdapter_1_8_4::trSingletonGeneratedFromFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00267">TranslatorAdapter_1_8_4::trSingletonGeneratedFromFiles()</a>.</p>
 
 </div>
 </div>
@@ -10702,7 +10778,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2001</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 2002</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00258">TranslatorAdapter_1_8_4::trSingletonReference()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00261">TranslatorAdapter_1_8_4::trSingletonReference()</a>.</p>
 
 </div>
 </div>
@@ -10736,7 +10812,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2166</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Interfaces&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2167</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00167">TranslatorAdapter_1_8_15::trSliceInterfaces()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00170">TranslatorAdapter_1_8_15::trSliceInterfaces()</a>.</p>
 
 </div>
 </div>
@@ -11056,7 +11132,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2210</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Struct Documentation&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2211</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00200">TranslatorAdapter_1_8_15::trStructDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00203">TranslatorAdapter_1_8_15::trStructDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -11090,7 +11166,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2198</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Struct Index&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2199</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00191">TranslatorAdapter_1_8_15::trStructIndex()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00194">TranslatorAdapter_1_8_15::trStructIndex()</a>.</p>
 
 </div>
 </div>
@@ -11124,7 +11200,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2202</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Struct List&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2203</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00194">TranslatorAdapter_1_8_15::trStructList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00197">TranslatorAdapter_1_8_15::trStructList()</a>.</p>
 
 </div>
 </div>
@@ -11158,7 +11234,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2206</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Here are the structs with brief descriptions:&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2207</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00197">TranslatorAdapter_1_8_15::trStructListDescription()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00200">TranslatorAdapter_1_8_15::trStructListDescription()</a>.</p>
 
 </div>
 </div>
@@ -11192,7 +11268,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 2194</span>        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Structs&quot;</span>;</div>
 <div class="line"><span class="lineno"> 2195</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00188">TranslatorAdapter_1_8_15::trStructs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00191">TranslatorAdapter_1_8_15::trStructs()</a>.</p>
 
 </div>
 </div>
@@ -11240,7 +11316,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 1744</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1745</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00444">TranslatorAdapter_1_6_0::trSubprogram()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00447">TranslatorAdapter_1_6_0::trSubprogram()</a>.</p>
 
 </div>
 </div>
@@ -11273,7 +11349,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01612">1612</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1613</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Function/Subroutine Documentation&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00405">TranslatorAdapter_1_6_0::trSubprogramDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00408">TranslatorAdapter_1_6_0::trSubprogramDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -11306,7 +11382,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01606">1606</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1607</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Functions/Subroutines&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00402">TranslatorAdapter_1_6_0::trSubprograms()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00405">TranslatorAdapter_1_6_0::trSubprograms()</a>.</p>
 
 </div>
 </div>
@@ -11339,7 +11415,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01882">1882</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1883</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Template Parameters&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00306">TranslatorAdapter_1_8_0::trTemplateParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00309">TranslatorAdapter_1_8_0::trTemplateParameters()</a>.</p>
 
 </div>
 </div>
@@ -11550,7 +11626,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 1733</span>      <span class="keywordflow">return</span> result;</div>
 <div class="line"><span class="lineno"> 1734</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00441">TranslatorAdapter_1_6_0::trType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d46/translator__en_8h_source.html#l02373">trCompoundType()</a>, and <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00444">TranslatorAdapter_1_6_0::trType()</a>.</p>
 
 </div>
 </div>
@@ -11585,7 +11661,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <div class="line"><span class="lineno"> 1750</span>      <span class="keywordflow">return</span> <span class="stringliteral">&quot;Type Constraints&quot;</span>;</div>
 <div class="line"><span class="lineno"> 1751</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00447">TranslatorAdapter_1_6_0::trTypeConstraints()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00450">TranslatorAdapter_1_6_0::trTypeConstraints()</a>.</p>
 
 </div>
 </div>
@@ -11680,7 +11756,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 <p class="definition">Definition at line <a class="el" href="../../da/d46/translator__en_8h_source.html#l01600">1600</a> of file <a class="el" href="../../da/d46/translator__en_8h_source.html">translator_en.h</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno"> 1601</span>    { <span class="keywordflow">return</span> <span class="stringliteral">&quot;Data Type Documentation&quot;</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00399">TranslatorAdapter_1_6_0::trTypeDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00402">TranslatorAdapter_1_6_0::trTypeDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -11930,7 +12006,7 @@ CHINESEBIG5_CHARSET     136 (x88)             950
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00117">VhdlDocGen::ALIAS</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00096">VhdlDocGen::ARCHITECTURE</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00098">VhdlDocGen::ATTRIBUTE</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00100">VhdlDocGen::COMPONENT</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00116">VhdlDocGen::CONFIG</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00101">VhdlDocGen::CONSTANT</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00094">VhdlDocGen::ENTITY</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00104">VhdlDocGen::FUNCTION</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00111">VhdlDocGen::GENERIC</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00113">VhdlDocGen::GROUP</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00112">VhdlDocGen::INSTANTIATION</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00093">VhdlDocGen::LIBRARY</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00118">VhdlDocGen::MISCELLANEOUS</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00097">VhdlDocGen::PACKAGE</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00095">VhdlDocGen::PACKAGE_BODY</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00109">VhdlDocGen::PORT</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00106">VhdlDocGen::PROCEDURE</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00108">VhdlDocGen::PROCESS</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00105">VhdlDocGen::RECORD</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00115">VhdlDocGen::SHAREDVARIABLE</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00099">VhdlDocGen::SIGNAL</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00103">VhdlDocGen::SUBTYPE</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00102">VhdlDocGen::TYPE</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00119">VhdlDocGen::UCF_CONST</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00110">VhdlDocGen::UNITS</a>, <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00107">VhdlDocGen::USE</a>, and <a class="el" href="../../dd/dec/vhdldocgen_8h_source.html#l00114">VhdlDocGen::VFILE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00143">TranslatorAdapter_1_8_15::trVhdlType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de6/translator__adapter_8h_source.html#l00146">TranslatorAdapter_1_8_15::trVhdlType()</a>.</p>
 
 </div>
 </div>

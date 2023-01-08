@@ -1,5 +1,12 @@
 var NAVTREEINDEX87 =
 {
+"db/dcc/class_translator_korean.html#af250990c1e356f8c18d4b5fbfb0e06d6":[8,0,596,223],
+"db/dcc/class_translator_korean.html#af2e16be464f269b4ee434acd75929948":[8,0,596,63],
+"db/dcc/class_translator_korean.html#af306b40227ca060fe1bfeee982e2ec31":[8,0,596,4],
+"db/dcc/class_translator_korean.html#af309b5d610ebe93451744e88db8a0f20":[8,0,596,2],
+"db/dcc/class_translator_korean.html#af3d6f5fd9b0c11943c05f231ad03c150":[8,0,596,74],
+"db/dcc/class_translator_korean.html#af469ef927e0c319daced69693d93f5f4":[8,0,596,140],
+"db/dcc/class_translator_korean.html#af5464b537b8051ac84a288dab90fe3f4":[8,0,596,160],
 "db/dcc/class_translator_korean.html#af6d9e6bc52deeeca5ead7f9083f8099b":[8,0,596,67],
 "db/dcc/class_translator_korean.html#af752c722b8870b72054edb8b96408c91":[8,0,596,80],
 "db/dcc/class_translator_korean.html#af75be9d9049596f6edf949f3601121e0":[8,0,596,204],
@@ -242,12 +249,5 @@ var NAVTREEINDEX87 =
 "dc/d03/class_translator_serbian_cyrillic.html#adc1f4d26bb85ea1be22c2092b2d21783":[8,0,608,167],
 "dc/d03/class_translator_serbian_cyrillic.html#ae0369a7cb3936856cc514c5e065d38b0":[8,0,608,57],
 "dc/d03/class_translator_serbian_cyrillic.html#ae0f9eceba130f83acd4845cd783e2558":[8,0,608,4],
-"dc/d03/class_translator_serbian_cyrillic.html#ae2667ef1006188c09f176692db4d9cef":[8,0,608,200],
-"dc/d03/class_translator_serbian_cyrillic.html#ae37b55a1c3fa055d42891c5ccc4b37c9":[8,0,608,144],
-"dc/d03/class_translator_serbian_cyrillic.html#ae4ba0340508549f9ae7710327bc889f7":[8,0,608,202],
-"dc/d03/class_translator_serbian_cyrillic.html#ae57dfdf8293e9c8d8f880a4517e25066":[8,0,608,33],
-"dc/d03/class_translator_serbian_cyrillic.html#ae6eacfa68ac06191395999cbaaab5170":[8,0,608,108],
-"dc/d03/class_translator_serbian_cyrillic.html#ae7a16f9a41883c7cd74c978723a3e0bb":[8,0,608,136],
-"dc/d03/class_translator_serbian_cyrillic.html#ae8413d6ec3c8802e09cd14bf254a2f3a":[8,0,608,128],
-"dc/d03/class_translator_serbian_cyrillic.html#ae89bbdf8b8e4b9a1e808e2f22152cce9":[8,0,608,43]
+"dc/d03/class_translator_serbian_cyrillic.html#ae2667ef1006188c09f176692db4d9cef":[8,0,608,200]
 };

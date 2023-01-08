@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"d9/dc1/class_translator_catalan.html#a3c4cb64a4d58f972d71e0ead00c13ffd":[8,0,577,197],
+"d9/dc1/class_translator_catalan.html#a3e4fb08378d5131fc5190e99f4586ca4":[8,0,577,95],
+"d9/dc1/class_translator_catalan.html#a3fc7351ad41a6f8c906564c8e3a61986":[8,0,577,162],
+"d9/dc1/class_translator_catalan.html#a3fe629ad436510759e16b9b275803a9c":[8,0,577,101],
+"d9/dc1/class_translator_catalan.html#a40bc2a775f7e8f7e4aebc30ee5d0415a":[8,0,577,168],
+"d9/dc1/class_translator_catalan.html#a40d025e5623a68b5cf8eb280cef3dcf9":[8,0,577,55],
 "d9/dc1/class_translator_catalan.html#a40f8915b8f604dae1db38a156aaa7d9d":[8,0,577,102],
 "d9/dc1/class_translator_catalan.html#a42d6fbca39eebb41bc45c4e52c1040d2":[8,0,577,52],
 "d9/dc1/class_translator_catalan.html#a42e68d09039fc3cd371c5685bf0e6635":[8,0,577,119],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "d9/dcc/structpyscanner_y_y__state.html#af5480b94093d688826679b0d850e0bd5":[8,0,445,40],
 "d9/dcc/structpyscanner_y_y__state.html#af7a4d5f5c5f8c9293d2a7e109bbf4994":[8,0,445,34],
 "d9/dcc/structpyscanner_y_y__state.html#af8167c3e120ae742f6f3f1ffc4694921":[8,0,445,38],
-"d9/dd0/lexscanner_8h.html":[9,0,2,157],
-"d9/dd0/lexscanner_8h_source.html":[9,0,2,157],
-"d9/dd2/class_doc_par_block.html":[8,0,167],
-"d9/dd2/class_doc_par_block.html#a04791034ab3db05cdecf35ffb6e0daff":[8,0,167,0],
-"d9/dd2/class_doc_par_block.html#ab729bba65829eb1dd35a6d0e27e06407":[8,0,167,1],
-"d9/dd3/class_doc_html_block_quote.html":[8,0,135],
-"d9/dd3/class_doc_html_block_quote.html#a59fdfee121255d7304d77580e8b5fd98":[8,0,135,0]
+"d9/dd0/lexscanner_8h.html":[9,0,2,157]
 };

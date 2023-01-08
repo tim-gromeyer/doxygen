@@ -1,5 +1,13 @@
 var NAVTREEINDEX97 =
 {
+"dd/d0d/class_config_impl.html#a33e3594e6a4848cd7803990e15b452de":[8,0,77,12],
+"dd/d0d/class_config_impl.html#a376d29ff41f6772b2ccfd055af34d9bb":[8,0,77,3],
+"dd/d0d/class_config_impl.html#a501e98a30e96c9930ac4b1791b80c09a":[8,0,77,25],
+"dd/d0d/class_config_impl.html#a50654e77279eecd43b0dd91cb21420e5":[8,0,77,24],
+"dd/d0d/class_config_impl.html#a52d03dcef339e7d828141b75223c0f08":[8,0,77,7],
+"dd/d0d/class_config_impl.html#a56797aabb7ab52c9bd60f32634e41a5b":[8,0,77,29],
+"dd/d0d/class_config_impl.html#a574ffab8ab91f47f27b9f142cbf1bdc4":[8,0,77,27],
+"dd/d0d/class_config_impl.html#a5a85a09dc81100da9de0dcb148e63c65":[8,0,77,28],
 "dd/d0d/class_config_impl.html#a5c8800850fd2447c50f320ffb4ee0357":[8,0,77,20],
 "dd/d0d/class_config_impl.html#a5d06627b2afb76668e8315613a76b9d3":[8,0,77,26],
 "dd/d0d/class_config_impl.html#a6e909c1b38e02a4536e16a33790ddca0":[8,0,77,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX97 =
 "dd/d38/class_translator_norwegian.html#a56784b7ec750172349c5450b8798f4d5":[8,0,601,167],
 "dd/d38/class_translator_norwegian.html#a57b022c381ab342200d6238488b2e4a5":[8,0,601,146],
 "dd/d38/class_translator_norwegian.html#a59264b538f75aa76543ec402b2ef38f9":[8,0,601,2],
-"dd/d38/class_translator_norwegian.html#a59ac28b655bef6be63d1031aa8716eb6":[8,0,601,101],
-"dd/d38/class_translator_norwegian.html#a5b2581e2357279017ab71c62289f3c39":[8,0,601,132],
-"dd/d38/class_translator_norwegian.html#a5b81b0c810a3c96109a245eb5cf61c7c":[8,0,601,58],
-"dd/d38/class_translator_norwegian.html#a5bd6c96821a9d80b2dc3c54ecf11e183":[8,0,601,93],
-"dd/d38/class_translator_norwegian.html#a5d293c6ae2efe0cfe082d73ebb4806f4":[8,0,601,25],
-"dd/d38/class_translator_norwegian.html#a5d722105b7e4b4c250545d4342df7aa4":[8,0,601,143],
-"dd/d38/class_translator_norwegian.html#a5de6dadf1f0aa1b2b520f42555b87aad":[8,0,601,64],
-"dd/d38/class_translator_norwegian.html#a5fecba8518aa19f0ff8d78a3e7f6acc8":[8,0,601,20],
-"dd/d38/class_translator_norwegian.html#a610be88018bed2b453240e4a28e550b9":[8,0,601,37]
+"dd/d38/class_translator_norwegian.html#a59ac28b655bef6be63d1031aa8716eb6":[8,0,601,101]
 };

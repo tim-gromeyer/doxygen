@@ -1,5 +1,14 @@
 var NAVTREEINDEX116 =
 {
+"de/d4f/class_qhp.html#a97250a0c6a30c1007fe57e472900fd97":[8,0,449,4],
+"de/d4f/class_qhp.html#a9e93b7836ed90fde1d12b990565acb58":[8,0,449,15],
+"de/d4f/class_qhp.html#ab10e4a689479c8fd8a51a5563db674d4":[8,0,449,2],
+"de/d4f/class_qhp.html#abdf5cf3986a9cd5ac14e4b32a026a2e1":[8,0,449,3],
+"de/d4f/class_qhp.html#afdd0e586dc670e184d23bf80c880f0cf":[8,0,449,8],
+"de/d5c/rtfstyle_8cpp.html":[9,0,2,214],
+"de/d5c/rtfstyle_8cpp.html#a0324698363e2cd57eab1023a6dfd3eaf":[9,0,2,214,11],
+"de/d5c/rtfstyle_8cpp.html#a0a0cb97c92a409dabdf406f23bd8e2d0":[9,0,2,214,5],
+"de/d5c/rtfstyle_8cpp.html#a0e6daceda067f191c8ec56f44ec2486f":[9,0,2,214,17],
 "de/d5c/rtfstyle_8cpp.html#a171eccae8452542c0917db77076e6769":[9,0,2,214,13],
 "de/d5c/rtfstyle_8cpp.html#a1a60858edb01bcbd780025cecdf65c8f":[9,0,2,214,7],
 "de/d5c/rtfstyle_8cpp.html#a1c7e59c4175c745476a2f8a1cb78644e":[9,0,2,214,18],
@@ -240,14 +249,5 @@ var NAVTREEINDEX116 =
 "de/d82/class_translator_polish.html#a662e8766ea79fbb038bea786067d121c":[8,0,603,214],
 "de/d82/class_translator_polish.html#a675ae7842337be7efe61808e8a079ce8":[8,0,603,108],
 "de/d82/class_translator_polish.html#a68865adf71b369f41766250b65e9fbf3":[8,0,603,50],
-"de/d82/class_translator_polish.html#a68d0a4658390b9ae8e3f393dfd8a2251":[8,0,603,136],
-"de/d82/class_translator_polish.html#a697edf12618fcb9a30351ec15ec46aa7":[8,0,603,40],
-"de/d82/class_translator_polish.html#a6b8bc70d985ec1f4bdf38a23f95707e0":[8,0,603,127],
-"de/d82/class_translator_polish.html#a6c1c691bb7e8adf0623f93799e6e78b2":[8,0,603,80],
-"de/d82/class_translator_polish.html#a6f0eb5ca63099a11f7117e427760efb7":[8,0,603,167],
-"de/d82/class_translator_polish.html#a73f10fc0ab8af5031abfcb258f040175":[8,0,603,224],
-"de/d82/class_translator_polish.html#a758732cefd26fb28599e42ca9af87b4e":[8,0,603,217],
-"de/d82/class_translator_polish.html#a759d797ca0201586919dd0d6fc9e781c":[8,0,603,59],
-"de/d82/class_translator_polish.html#a75a43fcd1a1927285d3cf31c1525bb82":[8,0,603,115],
-"de/d82/class_translator_polish.html#a75c2e08b70d1be5ca4c1b6f9951def03":[8,0,603,1]
+"de/d82/class_translator_polish.html#a68d0a4658390b9ae8e3f393dfd8a2251":[8,0,603,136]
 };

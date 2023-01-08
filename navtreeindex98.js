@@ -1,5 +1,13 @@
 var NAVTREEINDEX98 =
 {
+"dd/d38/class_translator_norwegian.html#a5b2581e2357279017ab71c62289f3c39":[8,0,601,132],
+"dd/d38/class_translator_norwegian.html#a5b81b0c810a3c96109a245eb5cf61c7c":[8,0,601,58],
+"dd/d38/class_translator_norwegian.html#a5bd6c96821a9d80b2dc3c54ecf11e183":[8,0,601,93],
+"dd/d38/class_translator_norwegian.html#a5d293c6ae2efe0cfe082d73ebb4806f4":[8,0,601,25],
+"dd/d38/class_translator_norwegian.html#a5d722105b7e4b4c250545d4342df7aa4":[8,0,601,143],
+"dd/d38/class_translator_norwegian.html#a5de6dadf1f0aa1b2b520f42555b87aad":[8,0,601,64],
+"dd/d38/class_translator_norwegian.html#a5fecba8518aa19f0ff8d78a3e7f6acc8":[8,0,601,20],
+"dd/d38/class_translator_norwegian.html#a610be88018bed2b453240e4a28e550b9":[8,0,601,37],
 "dd/d38/class_translator_norwegian.html#a6204fd86995f2396d07f220646d16880":[8,0,601,186],
 "dd/d38/class_translator_norwegian.html#a62cf7f9780edc2581dbf3c73697bfca6":[8,0,601,45],
 "dd/d38/class_translator_norwegian.html#a62f1d3e5b2cea7b6d686e89636fdcf53":[8,0,601,138],
@@ -241,13 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a00a5f3d11dcbd0d6f04213705399eee0":[8,0,101,0,17],
 "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a085a1ed6494c26808af289c68ed95601":[8,0,101,0,6],
 "dd/d50/class_definition_impl_1_1_i_m_p_l.html#a0e08c1594f6fb527a371d48ad08de85c":[8,0,101,0,30],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a134e7e6fd9e86f7ea1b0c2fea287f4fc":[8,0,101,0,8],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a2469234f5c8f3dacc106eebdea347ded":[8,0,101,0,13],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a2c57cdb700e73f03b38fc0a9934563cd":[8,0,101,0,25],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a4784192134f6d7d80d76ad16370978fc":[8,0,101,0,26],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a4aae317b38774578f49f18ce23d826a7":[8,0,101,0,10],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a4ab0382de3f047b385926d4b5d6b50db":[8,0,101,0,19],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a5b6daa0fff5a5b6b6d1dbbf749273b8b":[8,0,101,0,20],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a64fdbc6c180b22cf27006381927fe11f":[8,0,101,0,9],
-"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a6f4ce9cba46b070ebc55d37a5bff6ba7":[8,0,101,0,16]
+"dd/d50/class_definition_impl_1_1_i_m_p_l.html#a134e7e6fd9e86f7ea1b0c2fea287f4fc":[8,0,101,0,8]
 };

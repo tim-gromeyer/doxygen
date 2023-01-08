@@ -1,5 +1,12 @@
 var NAVTREEINDEX91 =
 {
+"dc/d44/class_translator_spanish.html#a4a19b8201474bb990e20addb63d031c3":[8,0,611,209],
+"dc/d44/class_translator_spanish.html#a4c2dbcdc5499e86d4b8731f31ed16023":[8,0,611,232],
+"dc/d44/class_translator_spanish.html#a4c38456bf3d3c811df39e02e0a758f1f":[8,0,611,100],
+"dc/d44/class_translator_spanish.html#a4d1a4bd1b4c16d21891b53452eec946e":[8,0,611,200],
+"dc/d44/class_translator_spanish.html#a4d5cdc1d182e0b7a6afa5ee452f5c7fc":[8,0,611,269],
+"dc/d44/class_translator_spanish.html#a4d7567a771f9c6302ff08a9aa6477059":[8,0,611,255],
+"dc/d44/class_translator_spanish.html#a4d767e9216f16fc8c8a675c68e8727e0":[8,0,611,268],
 "dc/d44/class_translator_spanish.html#a4ef0a4fa6b0f169026bb32b87d43f811":[8,0,611,63],
 "dc/d44/class_translator_spanish.html#a4f089c4b134c4ad0547e8ae9ff720d63":[8,0,611,143],
 "dc/d44/class_translator_spanish.html#a4f9699f5844274a58e32b5651c60c903":[8,0,611,79],
@@ -242,12 +249,5 @@ var NAVTREEINDEX91 =
 "dc/d53/class_translator_lithuanian.html#a492c2b7d03ddc8eb06907b77aee59813":[8,0,599,149],
 "dc/d53/class_translator_lithuanian.html#a49c28b64285d33d3eb695d908cab4c66":[8,0,599,97],
 "dc/d53/class_translator_lithuanian.html#a4adf49abe62f4a928dfe887cf41943f4":[8,0,599,94],
-"dc/d53/class_translator_lithuanian.html#a4aedaa60971e8baffcbae5a48a36c8f0":[8,0,599,175],
-"dc/d53/class_translator_lithuanian.html#a4d44dd3f12fa2c992d978fd2b0a164ab":[8,0,599,145],
-"dc/d53/class_translator_lithuanian.html#a4ee40ef3963fde0dc6d0bbd58c261a76":[8,0,599,92],
-"dc/d53/class_translator_lithuanian.html#a50bada60cd2c5099d5dd0c4c37175298":[8,0,599,53],
-"dc/d53/class_translator_lithuanian.html#a52f9c220247bc4416d8f31526c7a69e4":[8,0,599,134],
-"dc/d53/class_translator_lithuanian.html#a573c117288ab6ece2f219d25a7426b46":[8,0,599,150],
-"dc/d53/class_translator_lithuanian.html#a5a397e3f128ca2f9ad85e0bda8a10f02":[8,0,599,142],
-"dc/d53/class_translator_lithuanian.html#a5bfe83043684f7bb111f772f01c4bc57":[8,0,599,184]
+"dc/d53/class_translator_lithuanian.html#a4aedaa60971e8baffcbae5a48a36c8f0":[8,0,599,175]
 };
