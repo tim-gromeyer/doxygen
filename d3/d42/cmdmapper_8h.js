@@ -171,6 +171,8 @@ var cmdmapper_8h =
       [ "HTML_S", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a33a0173429e3ba4f7394592cafbec1ce", null ],
       [ "HTML_DETAILS", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a24b01382403203fdfa1721ff9c5d1b8f", null ],
       [ "HTML_CITE", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a83f40c953c979133bbbbf419527a51dc", null ],
+      [ "HTML_PICTURE", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273af033603bfddd18a844badec1a1e27cbd", null ],
+      [ "HTML_SOURCE", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273adef2d10e8234d913cefe0841169de052", null ],
       [ "XML_CmdMask", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273adedaab7375bcdd08040b1ba9a6364ea4", null ],
       [ "XML_C", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a5ce9f148d97c638bc2c457bfe13d249a", null ],
       [ "XML_CODE", "d3/d42/cmdmapper_8h.html#a91be16b8342aa3130a4374d78cf42273a2bb7e964f4b1a8a2fe5c79fac9533ed1", null ],

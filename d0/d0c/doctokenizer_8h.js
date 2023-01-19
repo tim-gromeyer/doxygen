@@ -40,6 +40,8 @@ var doctokenizer_8h =
       [ "RetVal_CopyDoc", "d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afad8137258d399638b061b1922338a9d90", null ],
       [ "RetVal_EndInternal", "d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa57f51851af64020dba97516f5f0c4eca", null ],
       [ "RetVal_EndParBlock", "d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa4d3db3f070705885cb30e195fe963af1", null ],
-      [ "RetVal_EndHtmlDetails", "d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa35346d068a567f2442ab8f2aaf26fe1e", null ]
+      [ "RetVal_EndHtmlDetails", "d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa35346d068a567f2442ab8f2aaf26fe1e", null ],
+      [ "RetVal_EndHtmlPicture", "d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afabe05a53a7c3b8a580d82ec8825167109", null ],
+      [ "RetVal_PictureSource", "d0/d0c/doctokenizer_8h.html#a7722396ed46bc111e7b794948986f8afa598e41b5aaf3f7b8c49fc019cabadb06", null ]
     ] ]
 ];

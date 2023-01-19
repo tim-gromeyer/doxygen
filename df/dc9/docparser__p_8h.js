@@ -10,6 +10,7 @@ var docparser__p_8h =
     [ "insideDetails", "df/dc9/docparser__p_8h.html#af5482286b814ee04eea804a9a3261cf4", null ],
     [ "insideLI", "df/dc9/docparser__p_8h.html#a786afe8925235dea586eb23046acaf41", null ],
     [ "insideOL", "df/dc9/docparser__p_8h.html#af8c289300738a7353cb8e47d343e7998", null ],
+    [ "insidePicture", "df/dc9/docparser__p_8h.html#a643b934330fbaa16793535761ece89e0", null ],
     [ "insidePRE", "df/dc9/docparser__p_8h.html#a66b237bbac35526d7fa7b944ca815088", null ],
     [ "insideTable", "df/dc9/docparser__p_8h.html#a2515a32b6dfcda676ef65dd34fad5abf", null ],
     [ "insideUL", "df/dc9/docparser__p_8h.html#a1f32f1e06f22781ceb8f7295ea6fca01", null ],
