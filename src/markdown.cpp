@@ -1845,6 +1845,30 @@ static bool isHRuler(const char *data,int size)
   return n>=3; // at least 3 characters needed for a hruler
 }
 
+QCString formatHtmlIdentifier(std::string str)
+{
+  // Replace space with '-'
+  std::replace(str.begin(), str.end(), ' ', '-');
+
+  QCString result;
+  for (auto c : str) {
+    if (std::ispunct(c) || std::isalnum(c) || std::isalpha(c))
+      result.append(c);
+  }
+
+  result = result.lower();
+
+  // Adding end digits if an identical header already exists
+  static std::unordered_map<std::string, int> id_count;
+  int &count = id_count[result.str()];
+  if (count > 0) {
+    result += "-" + std::to_string(count);
+  }
+  count++;
+
+  return result;
+}
+
 static QCString extractTitleId(QCString &title, int level)
 {
   AUTO_TRACE("title={} level={}",Trace::trunc(title),level);
@@ -1862,9 +1886,7 @@ static QCString extractTitleId(QCString &title, int level)
   }
   if ((level > 0) && (level <= Config_getInt(TOC_INCLUDE_HEADINGS)))
   {
-    static AtomicInt autoId { 0 };
-    QCString id;
-    id.sprintf("autotoc_md%d",autoId++);
+    QCString id = formatHtmlIdentifier(title.str());
     //printf("auto-generated id='%s' title='%s'\n",qPrint(id),qPrint(title));
     AUTO_TRACE_EXIT("id={}",id);
     return id;
