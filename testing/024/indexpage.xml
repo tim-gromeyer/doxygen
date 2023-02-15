@@ -7,14 +7,14 @@
     </briefdescription>
     <detaileddescription>
       <para>Unconditional (start)  Enabled (if).  Enabled (else).   Unconditional (middle)  Enabled (else).  Unconditional (end)</para>
-      <sect1 id="index_1autotoc_md0">
+      <sect1 id="index_1with-spaces">
         <title>with spaces</title>
         <para>test1  test3  test4.</para>
         <para>test1  test2  test4.</para>
         <para>test1  test2  test3.</para>
         <para>test1  test3.</para>
       </sect1>
-      <sect1 id="index_1autotoc_md1">
+      <sect1 id="index_1without-spaces">
         <title>without spaces</title>
         <para>test1 test3 test4.</para>
         <para>test1 test2 test4.</para>
