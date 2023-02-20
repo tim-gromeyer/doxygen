@@ -458,8 +458,8 @@ class TagFileParser
         case InMember:
         case InPackage:
         case InDir:
-          static HEADING_AUTO_IDENTIFIER_t behaviour = Config_getEnum(HEADING_AUTO_IDENTIFIER);
-          if (behaviour == HEADING_AUTO_IDENTIFIER_t::DOXYGEN)
+          static HEADING_AUTO_IDENTIFIER_t behavior = Config_getEnum(HEADING_AUTO_IDENTIFIER);
+          if (behavior == HEADING_AUTO_IDENTIFIER_t::DOXYGEN)
             if (m_curString.startsWith("autotoc_md"))
               return;
           break;
