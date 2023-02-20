@@ -1903,7 +1903,7 @@ QCString Markdown::extractTitleId(QCString &title, int level)
     if (count > 0) {
       warn(m_fileName,
            m_lineNr,
-           "A automatically generated id already has the name '%s'!",
+           "An automatically generated id already has the name '%s'!",
            id.c_str());
     }
     //printf("found match id='%s' title=%s\n",id.c_str(),qPrint(title));
@@ -1911,18 +1911,19 @@ QCString Markdown::extractTitleId(QCString &title, int level)
     return id;
   }
   if ((level > 0) && (level <= Config_getInt(TOC_INCLUDE_HEADINGS))) {
-    static HEADING_AUTO_IDENTIFIER_t behaviour = Config_getEnum(HEADING_AUTO_IDENTIFIER);
+    static HEADING_AUTO_IDENTIFIER_t behavior = Config_getEnum(HEADING_AUTO_IDENTIFIER);
     QCString id;
 
-    switch (behaviour) {
-    case HEADING_AUTO_IDENTIFIER_t::DOXYGEN:
-      id = doxygenHtmlIdentifier();
-      break;
-    case HEADING_AUTO_IDENTIFIER_t::GITHUB:
-      id = githubHtmlIdentifier(title.str());
-      break;
-    default:
-      id = doxygenHtmlIdentifier();
+    switch (behavior)
+    {
+      case HEADING_AUTO_IDENTIFIER_t::DOXYGEN:
+        id = doxygenHtmlIdentifier();
+        break;
+      case HEADING_AUTO_IDENTIFIER_t::GITHUB:
+        id = githubHtmlIdentifier(title.str());
+        break;
+      default:
+        id = doxygenHtmlIdentifier();
     }
 
     m_ids.insert(id);
