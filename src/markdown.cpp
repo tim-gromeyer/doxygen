@@ -1905,7 +1905,8 @@ QCString Markdown::extractTitleId(QCString &title, int level)
            m_lineNr,
            "An automatically generated id already has the name '%s'!",
            id.c_str());
-    }
+    } else
+      ++count;
     //printf("found match id='%s' title=%s\n",id.c_str(),qPrint(title));
     AUTO_TRACE_EXIT("id={}",id);
     return id;
